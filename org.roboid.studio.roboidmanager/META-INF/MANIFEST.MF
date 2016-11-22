@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Roboid Manager
+Bundle-SymbolicName: org.roboid.studio.roboidmanager; singleton:=true
+Bundle-Version: 1.4.2.v20100328
+Bundle-Activator: org.roboid.studio.roboidmanager.Activator
+Bundle-Vendor: www.roboidstudio.org
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.ui,
+ org.roboid.core.runtime;bundle-version="1.4.0",
+ org.roboid.core.resources;bundle-version="1.4.0",
+ org.roboid.robot.model;bundle-version="1.4.2",
+ org.roboid.core.component;bundle-version="1.4.0",
+ org.roboid.core.component.activity;bundle-version="1.4.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy

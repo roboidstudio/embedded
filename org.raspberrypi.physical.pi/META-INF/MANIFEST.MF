@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Raspberry Pi
+Bundle-SymbolicName: org.raspberrypi.physical.pi;singleton:=true
+Bundle-Version: 1.4.2.v20151005
+Bundle-Activator: org.raspberrypi.physical.pi.Activator
+Require-Bundle: org.eclipse.core.runtime,
+ org.roboid.core.component;bundle-version="1.4.0"
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-Vendor: www.robotmedia.kr

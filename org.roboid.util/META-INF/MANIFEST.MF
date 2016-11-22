@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Util
+Bundle-SymbolicName: org.roboid.util; singleton:=true
+Bundle-Version: 1.4.2.v20100119
+Bundle-Activator: org.roboid.util.Activator
+Bundle-Vendor: www.roboidstudio.org
+Require-Bundle: org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy
+Bundle-NativeCode: library/opencv/cxcore200.dll;
+ library/opencv/cv200.dll;
+ library/opencv/cxts200.dll;
+ library/opencv/opencv_ffmpeg200.dll;
+ library/opencv/ml200.dll;
+ library/opencv/highgui200.dll;
+ library/opencv/cvaux200.dll;
+ library/artoolkit/glut32.dll;
+ library/artoolkit/ARToolkitJNI.dll;
+ library/system/TrayJNI.dll;
+ osname=win32;
+ processor=x86
+Export-Package: org.roboid.util.artoolkit,
+ org.roboid.util.opencv,
+ org.roboid.util.system

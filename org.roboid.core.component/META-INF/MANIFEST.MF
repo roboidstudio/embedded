@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Component
+Bundle-SymbolicName: org.roboid.core.component;singleton:=true
+Bundle-Version: 1.4.0.v20091011
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-Vendor: www.roboidstudio.org
+Require-Bundle: org.eclipse.core.runtime;bundle-version="3.5.0",
+ org.eclipse.ui;bundle-version="3.5.1";visibility:=reexport,
+ org.roboid.core;bundle-version="1.4.0",
+ org.roboid.core.resources;bundle-version="1.4.0";visibility:=reexport,
+ org.roboid.robot.model;bundle-version="1.4.0";visibility:=reexport
+Export-Package: org.roboid.core.component,
+ org.roboid.core.component.proxy,
+ org.roboid.core.component.util
+Bundle-ActivationPolicy: lazy

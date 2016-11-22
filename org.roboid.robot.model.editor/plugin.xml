@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+ <copyright>
+ </copyright>
+
+ $Id: plugin.xml,v 1.1 2009/12/11 18:38:05 robomation Exp $
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <category
+            id="org.roboid.studio.newWizards"
+            name="Roboid Studio">
+      </category>
+      <wizard
+            id="org.roboid.robot.presentation.RobotModelWizardID"
+            name="%_UI_RobotModelWizard_label"
+            class="org.roboid.robot.presentation.RobotModelWizard"
+            category="org.roboid.studio.newWizards"
+            icon="icons/full/obj16/RobotModelFile.gif">
+         <description>%_UI_RobotModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <editor
+            id="org.roboid.robot.presentation.RobotEditorID"
+            name="%_UI_RobotEditor_label"
+            icon="icons/full/obj16/RobotModelFile.gif"
+            extensions="roboid"
+            class="org.roboid.robot.presentation.RobotEditor"
+            contributorClass="org.roboid.robot.presentation.RobotActionBarContributor">
+      </editor>
+   </extension>
+
+</plugin>

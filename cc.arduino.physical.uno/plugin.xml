@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.roboid.component">
+      <component
+            class="cc.arduino.physical.uno.Arduino"
+            icon="arduino16.png"
+            id="cc.arduino.physical.uno"
+            model="cc.arduino.physical.uno.roboid"
+            name="Arduino Uno"
+            provider="www.robotmedia.kr"
+            version="1.0.0">
+      </component>
+   </extension>
+
+</plugin>

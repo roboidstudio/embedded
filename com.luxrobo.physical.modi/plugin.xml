@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.roboid.component">
+      <component
+            class="com.luxrobo.physical.modi.Modi"
+            icon="modi16.png"
+            id="com.luxrobo.physical.modi"
+            model="com.luxrobo.physical.modi.roboid"
+            name="Modi"
+            provider="www.robotmedia.kr"
+            version="1.0.0">
+      </component>
+   </extension>
+
+</plugin>

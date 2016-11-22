@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Contents Composer Model
+Bundle-SymbolicName: org.roboid.studio.contentscomposer.model; singleton:=true
+Bundle-Version: 1.4.0.v20090926
+Bundle-Vendor: www.roboidstudio.org
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Require-Bundle: org.eclipse.core.runtime;bundle-version="3.5.0",
+ org.eclipse.ui;bundle-version="3.5.0",
+ org.eclipse.ui.views;bundle-version="3.4.0";visibility:=reexport,
+ org.eclipse.ui.console;bundle-version="3.4.0",
+ org.eclipse.emf.ecore.xmi;bundle-version="2.5.0",
+ org.eclipse.gef;bundle-version="3.5.0",
+ org.roboid.core.runtime;bundle-version="1.4.0",
+ org.roboid.core.component.activity;bundle-version="1.4.0",
+ org.roboid.robot.model;bundle-version="1.4.0",
+ org.roboid.studio.timeline.model;bundle-version="1.4.0",
+ org.roboid.ui;bundle-version="1.4.0"
+Export-Package: org.roboid.studio.contentscomposer,
+ org.roboid.studio.contentscomposer.util
+Bundle-ActivationPolicy: lazy

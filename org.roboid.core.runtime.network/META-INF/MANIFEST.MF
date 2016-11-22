@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Network
+Bundle-SymbolicName: org.roboid.core.runtime.network;singleton:=true
+Bundle-Version: 1.4.2.v20150814
+Bundle-Activator: org.roboid.core.runtime.network.Activator
+Bundle-Vendor: www.roboidstudio.org
+Require-Bundle: org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy
+Export-Package: org.roboid.core.runtime.network

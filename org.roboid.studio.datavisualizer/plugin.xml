@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.help.toc">
+      <toc
+            file="toc.xml"
+            primary="true">
+      </toc>
+      <toc
+            file="tocconcepts.xml">
+      </toc>
+      <toc
+            file="tocgettingstarted.xml">
+      </toc>
+      <toc
+            file="tocreference.xml">
+      </toc>
+      <toc
+            file="tocsamples.xml">
+      </toc>
+      <toc
+            file="toctasks.xml">
+      </toc>
+   </extension>
+   <extension
+         point="org.eclipse.ui.views">
+      <category
+            id="org.roboid.studio.views"
+            name="Roboid Studio">
+      </category>
+      <view
+            allowMultiple="false"
+            category="org.roboid.studio.views"
+            class="org.roboid.studio.datavisualizer.DataVisualizer"
+            icon="DataVisualizer16.png"
+            id="org.roboid.studio.datavisualizer.views.DataVisualizer"
+            name="Data Visualizer"
+            restorable="true">
+      </view>
+   </extension>
+
+</plugin>

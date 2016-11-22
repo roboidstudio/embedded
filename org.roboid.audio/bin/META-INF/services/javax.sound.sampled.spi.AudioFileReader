@@ -1,0 +1,18 @@
+# configuration file for the tritonus library
+org.tritonus.sampled.file.AuAudioFileReader
+org.tritonus.sampled.file.WaveAudioFileReader
+org.tritonus.sampled.file.AiffAudioFileReader
+org.tritonus.sampled.file.mpeg.MpegAudioFileReader
+org.tritonus.sampled.file.gsm.GSMAudioFileReader
+
+# javazoom mp3spi
+javazoom.spi.mpeg.sampled.file.MpegAudioFileReader
+
+# javazoom vorbis spi
+javazoom.spi.vorbis.sampled.file.VorbisAudioFileReader
+
+#jmac
+davaguine.jmac.spi.tritonus.APEAudioFileReader
+
+#speex
+org.xiph.speex.spi.SpeexAudioFileReader

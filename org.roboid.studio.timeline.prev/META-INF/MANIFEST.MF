@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Timeline
+Bundle-SymbolicName: org.roboid.studio.timeline.prev;singleton:=true
+Bundle-Version: 1.4.0.v20090926
+Bundle-Vendor: www.roboidstudio.org
+Require-Bundle: org.eclipse.ui.views;bundle-version="3.4.1",
+ org.eclipse.draw2d;bundle-version="3.5.0",
+ org.roboid.core.runtime;bundle-version="1.4.0",
+ org.roboid.robot.model;bundle-version="1.4.0",
+ org.roboid.studio.timeline.model;bundle-version="1.4.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Export-Package: kr.roboid.timeline.model,
+ org.roboid.studio.timeline.model
+Bundle-ActivationPolicy: lazy

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.roboid.component">
+      <component
+            class="cc.kocoafab.physical.orange.Orange"
+            icon="orange16.png"
+            id="cc.kocoafab.physical.orange"
+            model="cc.kocoafab.physical.orange.roboid"
+            name="Orange Board"
+            provider="www.robotmedia.kr"
+            version="1.0.0">
+      </component>
+   </extension>
+
+</plugin>

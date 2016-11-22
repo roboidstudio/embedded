@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.roboid.robot:Robot xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.roboid.robot="http://www.roboidstudio.org/model/robot" name="Arduino" literal="Arduino" provider="www.robotmedia.kr">
+  <roboids name="Arduino" literal="Arduino" id="cc.arduino.physical.uno" uid="cc.arduino.physical.uno.0" provider="www.robotmedia.kr">
+    <protocol name="DMP" literal="DMP" bufferSize="2"/>
+    <devices xsi:type="org.roboid.robot:Port" name="Pin0" literal="Pin0" dataType="UNSIGNED BYTE" max="255" default="0"/>
+    <devices xsi:type="org.roboid.robot:Port" name="Pin1" literal="Pin1" dataType="UNSIGNED BYTE" max="255" default="0"/>
+    <devices xsi:type="org.roboid.robot:Port" name="Pin2" literal="Pin2" dataType="UNSIGNED BYTE" max="255" default="0"/>
+    <devices xsi:type="org.roboid.robot:Port" name="Pin3" literal="Pin3" dataType="UNSIGNED BYTE" max="255" default="0"/>
+    <devices xsi:type="org.roboid.robot:Port" name="Pin4" literal="Pin4" dataType="UNSIGNED BYTE" max="255" default="0"/>
+    <devices xsi:type="org.roboid.robot:Port" name="Pin5" literal="Pin5" dataType="UNSIGNED BYTE" max="255" default="0"/>
+    <devices xsi:type="org.roboid.robot:Port" name="Pin6" literal="Pin6" dataType="UNSIGNED BYTE" max="255" default="0"/>
+    <devices xsi:type="org.roboid.robot:Port" name="Pin7" literal="Pin7" dataType="UNSIGNED BYTE" max="255" default="0"/>
+    <devices xsi:type="org.roboid.robot:Port" name="Pin8" literal="Pin8" dataType="UNSIGNED BYTE" max="255" default="0"/>
+    <devices xsi:type="org.roboid.robot:Port" name="Pin9" literal="Pin9" dataType="UNSIGNED BYTE" max="255" default="0"/>
+    <devices xsi:type="org.roboid.robot:Port" name="Pin10" literal="Pin10" dataType="UNSIGNED BYTE" max="255" default="0"/>
+    <devices xsi:type="org.roboid.robot:Port" name="Pin11" literal="Pin11" dataType="UNSIGNED BYTE" max="255" default="0"/>
+    <devices xsi:type="org.roboid.robot:Port" name="Pin12" literal="Pin12" dataType="UNSIGNED BYTE" max="255" default="0"/>
+    <devices xsi:type="org.roboid.robot:Port" name="Pin13" literal="Pin13" dataType="UNSIGNED BYTE" max="255" default="0"/>
+    <devices xsi:type="org.roboid.robot:Sensor" name="AnalogInput0" literal="AnalogInput0" dataType="UNSIGNED SHORT" max="1023" default="0"/>
+    <devices xsi:type="org.roboid.robot:Sensor" name="AnalogInput1" literal="AnalogInput1" dataType="UNSIGNED SHORT" max="1023" default="0"/>
+    <devices xsi:type="org.roboid.robot:Sensor" name="AnalogInput2" literal="AnalogInput2" dataType="UNSIGNED SHORT" max="1023" default="0"/>
+    <devices xsi:type="org.roboid.robot:Sensor" name="AnalogInput3" literal="AnalogInput3" dataType="UNSIGNED SHORT" max="1023" default="0"/>
+    <devices xsi:type="org.roboid.robot:Sensor" name="AnalogInput4" literal="AnalogInput4" dataType="UNSIGNED SHORT" max="1023" default="0"/>
+    <devices xsi:type="org.roboid.robot:Sensor" name="AnalogInput5" literal="AnalogInput5" dataType="UNSIGNED SHORT" max="1023" default="0"/>
+  </roboids>
+  <controls name="Arduino" literal="Arduino">
+    <channels xsi:type="org.roboid.robot:LinearChannel" name="Pin0" literal="Pin0" devices="//@roboids.0/@devices.0"/>
+    <channels xsi:type="org.roboid.robot:LinearChannel" name="Pin1" literal="Pin1" devices="//@roboids.0/@devices.1"/>
+    <channels xsi:type="org.roboid.robot:LinearChannel" name="Pin2" literal="Pin2" devices="//@roboids.0/@devices.2"/>
+    <channels xsi:type="org.roboid.robot:LinearChannel" name="Pin3" literal="Pin3" devices="//@roboids.0/@devices.3"/>
+    <channels xsi:type="org.roboid.robot:LinearChannel" name="Pin4" literal="Pin4" devices="//@roboids.0/@devices.4"/>
+    <channels xsi:type="org.roboid.robot:LinearChannel" name="Pin5" literal="Pin5" devices="//@roboids.0/@devices.5"/>
+    <channels xsi:type="org.roboid.robot:LinearChannel" name="Pin6" literal="Pin6" devices="//@roboids.0/@devices.6"/>
+    <channels xsi:type="org.roboid.robot:LinearChannel" name="Pin7" literal="Pin7" devices="//@roboids.0/@devices.7"/>
+    <channels xsi:type="org.roboid.robot:LinearChannel" name="Pin8" literal="Pin8" devices="//@roboids.0/@devices.8"/>
+    <channels xsi:type="org.roboid.robot:LinearChannel" name="Pin9" literal="Pin9" devices="//@roboids.0/@devices.9"/>
+    <channels xsi:type="org.roboid.robot:LinearChannel" name="Pin10" literal="Pin10" devices="//@roboids.0/@devices.10"/>
+    <channels xsi:type="org.roboid.robot:LinearChannel" name="Pin11" literal="Pin11" devices="//@roboids.0/@devices.11"/>
+    <channels xsi:type="org.roboid.robot:LinearChannel" name="Pin12" literal="Pin12" devices="//@roboids.0/@devices.12"/>
+    <channels xsi:type="org.roboid.robot:LinearChannel" name="Pin13" literal="Pin13" devices="//@roboids.0/@devices.13"/>
+  </controls>
+</org.roboid.robot:Robot>

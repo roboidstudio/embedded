@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Robot Model
+Bundle-SymbolicName: org.roboid.robot.model;singleton:=true
+Bundle-Version: 1.4.2.v20121116
+Bundle-Vendor: www.roboidstudio.org
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Require-Bundle: org.eclipse.core.runtime;bundle-version="3.5.0",
+ org.eclipse.emf.ecore.xmi;bundle-version="2.5.0",
+ org.eclipse.swt;bundle-version="3.5.0",
+ org.roboid.core;bundle-version="1.4.0",
+ org.roboid.core.resources;bundle-version="1.4.2"
+Export-Package: org.roboid.robot,
+ org.roboid.robot.impl,
+ org.roboid.robot.util
+Bundle-ActivationPolicy: lazy

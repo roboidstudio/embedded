@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.help.toc">
+      <toc
+            file="toc.xml"
+            primary="true">
+      </toc>
+      <toc
+            file="tocconcepts.xml">
+      </toc>
+      <toc
+            file="tocgettingstarted.xml">
+      </toc>
+      <toc
+            file="tocreference.xml">
+      </toc>
+      <toc
+            file="tocsamples.xml">
+      </toc>
+      <toc
+            file="toctasks.xml">
+      </toc>
+   </extension>
+   <extension
+         point="org.eclipse.ui.editors">
+      <editor
+            class="org.roboid.studio.contentscomposer.ContentsComposer"
+            contributorClass="org.roboid.studio.contentscomposer.Contributor"
+            extensions="mcc"
+            icon="icons/movie16.png"
+            id="org.roboid.studio.contentscomposer.editor"
+            name="Contents Composer">
+      </editor>
+   </extension>
+   <extension point="org.eclipse.ui.newWizards">
+      <wizard
+            canFinishEarly="false"
+            category="org.roboid.studio.newWizards"
+            class="org.roboid.studio.contentscomposer.NewMotionContentWizard"
+            hasPages="true"
+            icon="icons/movie16.png"
+            id="org.roboid.studio.contentscomposer.wizard"
+            name="Contents Clip">
+      </wizard>
+   </extension>
+
+</plugin>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+ <copyright>
+ </copyright>
+
+ $Id: plugin.xml,v 1.1 2009/12/11 18:40:23 robomation Exp $
+-->
+
+<plugin>
+   <extension
+         point="org.eclipse.help.toc">
+      <toc
+            file="toc.xml"
+            primary="true">
+      </toc>
+      <toc
+            file="tocconcepts.xml">
+      </toc>
+      <toc
+            file="tocgettingstarted.xml">
+      </toc>
+      <toc
+            file="tocreference.xml">
+      </toc>
+      <toc
+            file="tocsamples.xml">
+      </toc>
+      <toc
+            file="toctasks.xml">
+      </toc>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <editor
+            id="org.roboid.studio.timeline.editor"
+            name="Timeline Motion Editor"
+            icon="icons/clip.gif"
+            extensions="mc"
+            class="org.roboid.studio.timeline.TimelineEditor"
+            contributorClass="org.roboid.studio.timeline.Contributor">
+      </editor>
+   </extension>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <category
+            id="org.roboid.studio.newWizards"
+            name="Roboid Studio"/>
+      <wizard
+            canFinishEarly="false"
+            category="org.roboid.studio.newWizards"
+            class="org.roboid.studio.timeline.NewMotionClipWizard"
+            hasPages="true"
+            icon="icons/clip.gif"
+            id="org.roboid.studio.timeline.wizard"
+            name="Motion Clip">
+      </wizard>
+   </extension>
+   <extension
+         point="org.eclipse.ui.exportWizards">
+      <category
+            id="org.roboid.studio.exportWizards"
+            name="Roboid Studio">
+      </category>
+      <wizard
+            category="org.roboid.studio.exportWizards"
+            class="org.roboid.studio.timeline.MotionClipStreamExportWizard"
+            icon="icons/clip.gif"
+            id="org.roboid.studio.timeline.wizard.export.stream"
+            name="Motion Clip Stream">
+         <selection
+               class="org.eclipse.core.resources.IResource">
+         </selection>
+         <description>
+            Export a motion clip into a motion clip stream file on the local file system
+         </description>
+      </wizard>
+   </extension>
+   <extension
+         point="org.eclipse.ui.exportWizards">
+      <wizard
+            category="org.roboid.studio.exportWizards"
+            class="org.roboid.studio.timeline.MotionClipBinaryExportWizard"
+            icon="icons/clip.gif"
+            id="org.roboid.studio.timeline.wizard.export.binary"
+            name="Motion Clip Binary">
+      </wizard>
+   </extension>
+
+</plugin>

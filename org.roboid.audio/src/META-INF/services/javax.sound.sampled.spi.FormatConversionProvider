@@ -1,0 +1,22 @@
+# configuration file for the tritonus library
+org.tritonus.sampled.convert.LawDecoder
+org.tritonus.sampled.convert.LawEncoder
+org.tritonus.sampled.convert.PCM2PCMConversionProvider
+org.tritonus.sampled.convert.SampleRateConversionProvider
+org.tritonus.sampled.convert.ImaAdpcmFormatConversionProvider
+org.tritonus.sampled.convert.gsm.GSMFormatConversionProvider
+
+org.tritonus.sampled.convert.javalayer.MpegFormatConversionProvider
+org.tritonus.sampled.convert.lame.Mp3LameFormatConversionProvider
+
+# javazoom mp3spi
+javazoom.spi.mpeg.sampled.convert.MpegFormatConversionProvider
+
+# javazoom vorbis spi
+javazoom.spi.vorbis.sampled.convert.VorbisFormatConversionProvider
+
+#jmac
+davaguine.jmac.spi.tritonus.APEFormatConversionProvider
+
+#jspeex
+org.xiph.speex.spi.SpeexFormatConvertionProvider

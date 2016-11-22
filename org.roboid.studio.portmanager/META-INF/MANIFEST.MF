@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Port Manager
+Bundle-SymbolicName: org.roboid.studio.portmanager;singleton:=true
+Bundle-Version: 1.4.2.v20151005
+Bundle-Activator: org.roboid.studio.portmanager.Activator
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.ui,
+ org.eclipse.emf.ecore;bundle-version="2.5.0",
+ org.roboid.core;bundle-version="1.4.2",
+ org.roboid.core.component;bundle-version="1.4.0",
+ org.roboid.core.runtime;bundle-version="1.4.2",
+ org.roboid.core.resources;bundle-version="1.4.2"
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-Vendor: www.roboidstudio.org

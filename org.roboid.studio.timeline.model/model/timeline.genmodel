@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/org.roboid.studio.timeline.model/src"
+    modelPluginID="org.roboid.studio.timeline.model" modelName="Timeline" rootExtendsInterface=""
+    suppressEMFTypes="true" importerID="org.eclipse.emf.importer.ecore" complianceLevel="6.0"
+    copyrightFields="false" usedGenPackages="../../org.roboid.core.component.activity/model/activity.genmodel#//activity ../../org.roboid.robot.model/model/robot.genmodel#//robot">
+  <foreignModel>timeline.ecore</foreignModel>
+  <genPackages prefix="Timeline" basePackage="org.roboid.studio" disposableProviderFactory="true"
+      ecorePackage="timeline.ecore#/">
+    <genDataTypes ecoreDataType="timeline.ecore#//Rectangle"/>
+    <genDataTypes ecoreDataType="timeline.ecore#//RGB"/>
+    <genDataTypes ecoreDataType="timeline.ecore#//AudioFormat"/>
+    <genDataTypes ecoreDataType="timeline.ecore#//AudioInputStream"/>
+    <genDataTypes ecoreDataType="timeline.ecore#//UnsupportedAudioFileException"/>
+    <genDataTypes ecoreDataType="timeline.ecore#//IOException"/>
+    <genDataTypes ecoreDataType="timeline.ecore#//FloatArray"/>
+    <genDataTypes ecoreDataType="timeline.ecore#//PropertyChangeListener"/>
+    <genClasses image="false" ecoreClass="timeline.ecore#//TimelineElement">
+      <genOperations ecoreOperation="timeline.ecore#//TimelineElement/addPropertyChangeListener">
+        <genParameters ecoreParameter="timeline.ecore#//TimelineElement/addPropertyChangeListener/listener"/>
+      </genOperations>
+      <genOperations ecoreOperation="timeline.ecore#//TimelineElement/firePropertyChange">
+        <genParameters ecoreParameter="timeline.ecore#//TimelineElement/firePropertyChange/propertyName"/>
+        <genParameters ecoreParameter="timeline.ecore#//TimelineElement/firePropertyChange/oldValue"/>
+        <genParameters ecoreParameter="timeline.ecore#//TimelineElement/firePropertyChange/newValue"/>
+      </genOperations>
+      <genOperations ecoreOperation="timeline.ecore#//TimelineElement/removePropertyChangeListener">
+        <genParameters ecoreParameter="timeline.ecore#//TimelineElement/removePropertyChangeListener/listener"/>
+      </genOperations>
+    </genClasses>
+    <genClasses ecoreClass="timeline.ecore#//MotionClip">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference timeline.ecore#//MotionClip/robot"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference timeline.ecore#//MotionClip/component"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference timeline.ecore#//MotionClip/controls"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute timeline.ecore#//MotionClip/version"/>
+      <genFeatures property="Readonly" createChild="false" ecoreFeature="ecore:EAttribute timeline.ecore#//MotionClip/frameLimit"/>
+      <genOperations ecoreOperation="timeline.ecore#//MotionClip/getTotalFrames"/>
+      <genOperations ecoreOperation="timeline.ecore#//MotionClip/createControlTrack">
+        <genParameters ecoreParameter="timeline.ecore#//MotionClip/createControlTrack/robot"/>
+      </genOperations>
+      <genOperations ecoreOperation="timeline.ecore#//MotionClip/changeRobot">
+        <genParameters ecoreParameter="timeline.ecore#//MotionClip/changeRobot/newRobot"/>
+      </genOperations>
+    </genClasses>
+    <genClasses image="false" ecoreClass="timeline.ecore#//MovableElement">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute timeline.ecore#//MovableElement/constraint"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference timeline.ecore#//MovableElement/parent"/>
+    </genClasses>
+    <genClasses ecoreClass="timeline.ecore#//ControlTrack">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference timeline.ecore#//ControlTrack/channels"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference timeline.ecore#//ControlTrack/control"/>
+      <genOperations ecoreOperation="timeline.ecore#//ControlTrack/getTotalFrames"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="timeline.ecore#//ChannelTrack">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference timeline.ecore#//ChannelTrack/points"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference timeline.ecore#//ChannelTrack/channel"/>
+      <genOperations ecoreOperation="timeline.ecore#//ChannelTrack/getTotalFrames"/>
+      <genOperations ecoreOperation="timeline.ecore#//ChannelTrack/getTargetDevices"/>
+      <genOperations ecoreOperation="timeline.ecore#//ChannelTrack/getTargetDevice">
+        <genParameters ecoreParameter="timeline.ecore#//ChannelTrack/getTargetDevice/index"/>
+      </genOperations>
+      <genOperations ecoreOperation="timeline.ecore#//ChannelTrack/createSimulacra"/>
+      <genOperations ecoreOperation="timeline.ecore#//ChannelTrack/addChild">
+        <genParameters ecoreParameter="timeline.ecore#//ChannelTrack/addChild/child"/>
+      </genOperations>
+      <genOperations ecoreOperation="timeline.ecore#//ChannelTrack/removeChild">
+        <genParameters ecoreParameter="timeline.ecore#//ChannelTrack/removeChild/child"/>
+      </genOperations>
+      <genOperations ecoreOperation="timeline.ecore#//ChannelTrack/dump">
+        <genParameters ecoreParameter="timeline.ecore#//ChannelTrack/dump/frame"/>
+      </genOperations>
+      <genOperations ecoreOperation="timeline.ecore#//ChannelTrack/reorder">
+        <genParameters ecoreParameter="timeline.ecore#//ChannelTrack/reorder/target"/>
+      </genOperations>
+    </genClasses>
+    <genClasses ecoreClass="timeline.ecore#//LinearTrack">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute timeline.ecore#//LinearTrack/mode"/>
+      <genOperations ecoreOperation="timeline.ecore#//LinearTrack/setMode">
+        <genParameters ecoreParameter="timeline.ecore#//LinearTrack/setMode/newMode"/>
+      </genOperations>
+    </genClasses>
+    <genClasses ecoreClass="timeline.ecore#//CommandTrack"/>
+    <genClasses ecoreClass="timeline.ecore#//AudioTrack">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute timeline.ecore#//AudioTrack/mode"/>
+      <genOperations ecoreOperation="timeline.ecore#//AudioTrack/setMode">
+        <genParameters ecoreParameter="timeline.ecore#//AudioTrack/setMode/newMode"/>
+      </genOperations>
+    </genClasses>
+    <genClasses ecoreClass="timeline.ecore#//VoiceTrack"/>
+    <genClasses ecoreClass="timeline.ecore#//ColorTrack">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute timeline.ecore#//ColorTrack/mode"/>
+      <genOperations ecoreOperation="timeline.ecore#//ColorTrack/setMode">
+        <genParameters ecoreParameter="timeline.ecore#//ColorTrack/setMode/newMode"/>
+      </genOperations>
+    </genClasses>
+    <genClasses ecoreClass="timeline.ecore#//TextTrack"/>
+    <genClasses ecoreClass="timeline.ecore#//MatrixTrack"/>
+    <genClasses image="false" ecoreClass="timeline.ecore#//ControlPoint">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute timeline.ecore#//ControlPoint/frame"/>
+      <genOperations ecoreOperation="timeline.ecore#//ControlPoint/deepCopy"/>
+      <genOperations ecoreOperation="timeline.ecore#//ControlPoint/performConstraintChange"/>
+    </genClasses>
+    <genClasses ecoreClass="timeline.ecore#//LinearPoint">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute timeline.ecore#//LinearPoint/values"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute timeline.ecore#//LinearPoint/mode"/>
+      <genOperations ecoreOperation="timeline.ecore#//LinearPoint/getDataSize"/>
+      <genOperations ecoreOperation="timeline.ecore#//LinearPoint/getDataType"/>
+      <genOperations ecoreOperation="timeline.ecore#//LinearPoint/setMode">
+        <genParameters ecoreParameter="timeline.ecore#//LinearPoint/setMode/newMode"/>
+      </genOperations>
+    </genClasses>
+    <genClasses ecoreClass="timeline.ecore#//CommandPoint">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute timeline.ecore#//CommandPoint/values"/>
+      <genOperations ecoreOperation="timeline.ecore#//CommandPoint/getDataSize"/>
+      <genOperations ecoreOperation="timeline.ecore#//CommandPoint/getDataType"/>
+    </genClasses>
+    <genClasses ecoreClass="timeline.ecore#//AudioPoint">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute timeline.ecore#//AudioPoint/mp3"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute timeline.ecore#//AudioPoint/length"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute timeline.ecore#//AudioPoint/text"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute timeline.ecore#//AudioPoint/voiceId"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute timeline.ecore#//AudioPoint/languageId"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute timeline.ecore#//AudioPoint/voiceEffectId"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute timeline.ecore#//AudioPoint/speechRate"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute timeline.ecore#//AudioPoint/volume"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute timeline.ecore#//AudioPoint/pitch"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute timeline.ecore#//AudioPoint/balance"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute timeline.ecore#//AudioPoint/encoding"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute timeline.ecore#//AudioPoint/sampleRate"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute timeline.ecore#//AudioPoint/sampleSizeInBits"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute timeline.ecore#//AudioPoint/channels"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute timeline.ecore#//AudioPoint/frameSize"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute timeline.ecore#//AudioPoint/frameRate"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute timeline.ecore#//AudioPoint/bigEndian"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute timeline.ecore#//AudioPoint/mode"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute timeline.ecore#//AudioPoint/format"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute timeline.ecore#//AudioPoint/pcm"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute timeline.ecore#//AudioPoint/modified"/>
+      <genOperations ecoreOperation="timeline.ecore#//AudioPoint/setMp3">
+        <genParameters ecoreParameter="timeline.ecore#//AudioPoint/setMp3/sourceStream"/>
+      </genOperations>
+      <genOperations ecoreOperation="timeline.ecore#//AudioPoint/getPcm">
+        <genParameters ecoreParameter="timeline.ecore#//AudioPoint/getPcm/targetFormat"/>
+      </genOperations>
+      <genOperations ecoreOperation="timeline.ecore#//AudioPoint/isNew"/>
+      <genOperations ecoreOperation="timeline.ecore#//AudioPoint/isFile"/>
+      <genOperations ecoreOperation="timeline.ecore#//AudioPoint/isTts"/>
+      <genOperations ecoreOperation="timeline.ecore#//AudioPoint/setMode">
+        <genParameters ecoreParameter="timeline.ecore#//AudioPoint/setMode/newMode"/>
+      </genOperations>
+    </genClasses>
+    <genClasses ecoreClass="timeline.ecore#//VoicePoint">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute timeline.ecore#//VoicePoint/lipGain"/>
+    </genClasses>
+    <genClasses ecoreClass="timeline.ecore#//ColorPoint">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute timeline.ecore#//ColorPoint/mode"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute timeline.ecore#//ColorPoint/color"/>
+      <genOperations ecoreOperation="timeline.ecore#//ColorPoint/setMode">
+        <genParameters ecoreParameter="timeline.ecore#//ColorPoint/setMode/newMode"/>
+      </genOperations>
+    </genClasses>
+    <genClasses ecoreClass="timeline.ecore#//TextPoint">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute timeline.ecore#//TextPoint/text"/>
+    </genClasses>
+    <genClasses ecoreClass="timeline.ecore#//MatrixPoint"/>
+  </genPackages>
+</genmodel:GenModel>

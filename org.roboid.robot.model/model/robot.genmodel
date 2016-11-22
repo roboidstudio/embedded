@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" copyrightText=""
+    modelDirectory="/org.roboid.robot.model/src" modelPluginID="org.roboid.robot.model"
+    modelName="Robot" rootExtendsInterface="" suppressEMFTypes="true" importerID="org.eclipse.emf.importer.ecore"
+    complianceLevel="6.0" copyrightFields="false">
+  <foreignModel>robot.ecore</foreignModel>
+  <genPackages prefix="Robot" basePackage="org.roboid" disposableProviderFactory="true"
+      fileExtensions="roboid" ecorePackage="robot.ecore#/">
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="robot.ecore#//DataType">
+      <genEnumLiterals ecoreEnumLiteral="robot.ecore#//DataType/BYTE"/>
+      <genEnumLiterals ecoreEnumLiteral="robot.ecore#//DataType/UNSIGNED_BYTE"/>
+      <genEnumLiterals ecoreEnumLiteral="robot.ecore#//DataType/SHORT"/>
+      <genEnumLiterals ecoreEnumLiteral="robot.ecore#//DataType/UNSIGNED_SHORT"/>
+      <genEnumLiterals ecoreEnumLiteral="robot.ecore#//DataType/INTEGER"/>
+      <genEnumLiterals ecoreEnumLiteral="robot.ecore#//DataType/FLOAT"/>
+      <genEnumLiterals ecoreEnumLiteral="robot.ecore#//DataType/STRING"/>
+      <genEnumLiterals ecoreEnumLiteral="robot.ecore#//DataType/IMAGE"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="robot.ecore#//AccessType">
+      <genEnumLiterals ecoreEnumLiteral="robot.ecore#//AccessType/PUBLIC"/>
+      <genEnumLiterals ecoreEnumLiteral="robot.ecore#//AccessType/PRIVATE"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="robot.ecore#//LinearMode">
+      <genEnumLiterals ecoreEnumLiteral="robot.ecore#//LinearMode/LINEAR"/>
+      <genEnumLiterals ecoreEnumLiteral="robot.ecore#//LinearMode/SUSTAIN"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="robot.ecore#//AudioMode">
+      <genEnumLiterals ecoreEnumLiteral="robot.ecore#//AudioMode/MONO"/>
+      <genEnumLiterals ecoreEnumLiteral="robot.ecore#//AudioMode/STEREO"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="robot.ecore#//ColorMode">
+      <genEnumLiterals ecoreEnumLiteral="robot.ecore#//ColorMode/RGB"/>
+      <genEnumLiterals ecoreEnumLiteral="robot.ecore#//ColorMode/RED_GREEN"/>
+      <genEnumLiterals ecoreEnumLiteral="robot.ecore#//ColorMode/RED"/>
+      <genEnumLiterals ecoreEnumLiteral="robot.ecore#//ColorMode/GREEN"/>
+      <genEnumLiterals ecoreEnumLiteral="robot.ecore#//ColorMode/BLUE"/>
+      <genEnumLiterals ecoreEnumLiteral="robot.ecore#//ColorMode/GRAY"/>
+    </genEnums>
+    <genDataTypes ecoreDataType="robot.ecore#//IntArray"/>
+    <genDataTypes ecoreDataType="robot.ecore#//FloatArray"/>
+    <genDataTypes ecoreDataType="robot.ecore#//StringArray"/>
+    <genDataTypes ecoreDataType="robot.ecore#//ImageDataArray"/>
+    <genDataTypes ecoreDataType="robot.ecore#//ImageData"/>
+    <genDataTypes ecoreDataType="robot.ecore#//ByteArrayInputStream"/>
+    <genDataTypes ecoreDataType="robot.ecore#//ByteArrayOutputStream"/>
+    <genClasses image="false" ecoreClass="robot.ecore#//NamedElement">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute robot.ecore#//NamedElement/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute robot.ecore#//NamedElement/literal"/>
+      <genFeatures createChild="false" propertyMultiLine="true" ecoreFeature="ecore:EAttribute robot.ecore#//NamedElement/comment"/>
+      <genOperations ecoreOperation="robot.ecore#//NamedElement/getParent"/>
+      <genOperations ecoreOperation="robot.ecore#//NamedElement/getChildren"/>
+      <genOperations ecoreOperation="robot.ecore#//NamedElement/equalsContents">
+        <genParameters ecoreParameter="robot.ecore#//NamedElement/equalsContents/obj"/>
+      </genOperations>
+      <genOperations ecoreOperation="robot.ecore#//NamedElement/getFullName"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="robot.ecore#//Storable">
+      <genOperations ecoreOperation="robot.ecore#//Storable/createDeviceMemory"/>
+      <genOperations ecoreOperation="robot.ecore#//Storable/clearDeviceMemory"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="robot.ecore#//Findable">
+      <genOperations ecoreOperation="robot.ecore#//Findable/findDevice">
+        <genParameters ecoreParameter="robot.ecore#//Findable/findDevice/name"/>
+      </genOperations>
+      <genOperations ecoreOperation="robot.ecore#//Findable/findRoboid">
+        <genParameters ecoreParameter="robot.ecore#//Findable/findRoboid/name"/>
+      </genOperations>
+    </genClasses>
+    <genClasses image="false" ecoreClass="robot.ecore#//Simulacra">
+      <genOperations ecoreOperation="robot.ecore#//Simulacra/setDeviceMap">
+        <genParameters ecoreParameter="robot.ecore#//Simulacra/setDeviceMap/index"/>
+        <genParameters ecoreParameter="robot.ecore#//Simulacra/setDeviceMap/deviceMap"/>
+        <genParameters ecoreParameter="robot.ecore#//Simulacra/setDeviceMap/isMaster"/>
+      </genOperations>
+      <genOperations ecoreOperation="robot.ecore#//Simulacra/setPayload">
+        <genParameters ecoreParameter="robot.ecore#//Simulacra/setPayload/simulacrum"/>
+        <genParameters ecoreParameter="robot.ecore#//Simulacra/setPayload/isMaster"/>
+      </genOperations>
+      <genOperations ecoreOperation="robot.ecore#//Simulacra/getSimulacrum">
+        <genParameters ecoreParameter="robot.ecore#//Simulacra/getSimulacrum/deviceMap"/>
+        <genParameters ecoreParameter="robot.ecore#//Simulacra/getSimulacrum/payload"/>
+      </genOperations>
+      <genOperations ecoreOperation="robot.ecore#//Simulacra/isReceived"/>
+      <genOperations ecoreOperation="robot.ecore#//Simulacra/canSend"/>
+      <genOperations ecoreOperation="robot.ecore#//Simulacra/updateDeviceState"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="robot.ecore#//DeviceListener">
+      <genOperations ecoreOperation="robot.ecore#//DeviceListener/effectPerformed">
+        <genParameters ecoreParameter="robot.ecore#//DeviceListener/effectPerformed/device"/>
+      </genOperations>
+      <genOperations ecoreOperation="robot.ecore#//DeviceListener/commandPerformed">
+        <genParameters ecoreParameter="robot.ecore#//DeviceListener/commandPerformed/device"/>
+      </genOperations>
+      <genOperations ecoreOperation="robot.ecore#//DeviceListener/stateChanged">
+        <genParameters ecoreParameter="robot.ecore#//DeviceListener/stateChanged/device"/>
+      </genOperations>
+      <genOperations ecoreOperation="robot.ecore#//DeviceListener/handleEvent">
+        <genParameters ecoreParameter="robot.ecore#//DeviceListener/handleEvent/device"/>
+      </genOperations>
+    </genClasses>
+    <genClasses ecoreClass="robot.ecore#//Robot">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute robot.ecore#//Robot/provider"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute robot.ecore#//Robot/version"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference robot.ecore#//Robot/roboids"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference robot.ecore#//Robot/controls"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute robot.ecore#//Robot/standard"/>
+      <genOperations ecoreOperation="robot.ecore#//Robot/getProtocol"/>
+      <genOperations ecoreOperation="robot.ecore#//Robot/collectAllDevices">
+        <genParameters ecoreParameter="robot.ecore#//Robot/collectAllDevices/devices"/>
+      </genOperations>
+      <genOperations ecoreOperation="robot.ecore#//Robot/collectAllDeviceNames">
+        <genParameters ecoreParameter="robot.ecore#//Robot/collectAllDeviceNames/names"/>
+      </genOperations>
+    </genClasses>
+    <genClasses ecoreClass="robot.ecore#//Roboid">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute robot.ecore#//Roboid/id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute robot.ecore#//Roboid/uid"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference robot.ecore#//Roboid/roboids"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference robot.ecore#//Roboid/protocol"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference robot.ecore#//Roboid/ports"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference robot.ecore#//Roboid/devices"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute robot.ecore#//Roboid/version"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute robot.ecore#//Roboid/provider"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference robot.ecore#//Roboid/hostRoboid"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute robot.ecore#//Roboid/address"/>
+      <genOperations ecoreOperation="robot.ecore#//Roboid/collectAllDevices">
+        <genParameters ecoreParameter="robot.ecore#//Roboid/collectAllDevices/devices"/>
+      </genOperations>
+    </genClasses>
+    <genClasses ecoreClass="robot.ecore#//Control">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference robot.ecore#//Control/channels"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute robot.ecore#//Control/version"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute robot.ecore#//Control/frameLimit"/>
+    </genClasses>
+    <genClasses ecoreClass="robot.ecore#//Protocol">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute robot.ecore#//Protocol/version"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute robot.ecore#//Protocol/bufferSize"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute robot.ecore#//Protocol/remainingBuffer"/>
+      <genOperations ecoreOperation="robot.ecore#//Protocol/getSimulacrum"/>
+      <genOperations ecoreOperation="robot.ecore#//Protocol/setSimulacrum">
+        <genParameters ecoreParameter="robot.ecore#//Protocol/setSimulacrum/simulacrum"/>
+        <genParameters ecoreParameter="robot.ecore#//Protocol/setSimulacrum/isMaster"/>
+      </genOperations>
+      <genOperations ecoreOperation="robot.ecore#//Protocol/clearBuffer"/>
+      <genOperations ecoreOperation="robot.ecore#//Protocol/setEvents"/>
+      <genOperations ecoreOperation="robot.ecore#//Protocol/getBufferId"/>
+    </genClasses>
+    <genClasses ecoreClass="robot.ecore#//Port">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute robot.ecore#//Port/mode"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="robot.ecore#//Device">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute robot.ecore#//Device/dataSize"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute robot.ecore#//Device/dataType"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute robot.ecore#//Device/max"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute robot.ecore#//Device/min"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute robot.ecore#//Device/default"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute robot.ecore#//Device/proxy"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute robot.ecore#//Device/access"/>
+      <genOperations ecoreOperation="robot.ecore#//Device/write"/>
+      <genOperations ecoreOperation="robot.ecore#//Device/write.1">
+        <genParameters ecoreParameter="robot.ecore#//Device/write.1/data"/>
+      </genOperations>
+      <genOperations ecoreOperation="robot.ecore#//Device/write.2">
+        <genParameters ecoreParameter="robot.ecore#//Device/write.2/index"/>
+        <genParameters ecoreParameter="robot.ecore#//Device/write.2/data"/>
+      </genOperations>
+      <genOperations ecoreOperation="robot.ecore#//Device/write.3">
+        <genParameters ecoreParameter="robot.ecore#//Device/write.3/data"/>
+      </genOperations>
+      <genOperations ecoreOperation="robot.ecore#//Device/write.4">
+        <genParameters ecoreParameter="robot.ecore#//Device/write.4/data"/>
+      </genOperations>
+      <genOperations ecoreOperation="robot.ecore#//Device/write.5">
+        <genParameters ecoreParameter="robot.ecore#//Device/write.5/index"/>
+        <genParameters ecoreParameter="robot.ecore#//Device/write.5/data"/>
+      </genOperations>
+      <genOperations ecoreOperation="robot.ecore#//Device/write.6">
+        <genParameters ecoreParameter="robot.ecore#//Device/write.6/data"/>
+      </genOperations>
+      <genOperations ecoreOperation="robot.ecore#//Device/write.7">
+        <genParameters ecoreParameter="robot.ecore#//Device/write.7/text"/>
+      </genOperations>
+      <genOperations ecoreOperation="robot.ecore#//Device/write.8">
+        <genParameters ecoreParameter="robot.ecore#//Device/write.8/index"/>
+        <genParameters ecoreParameter="robot.ecore#//Device/write.8/text"/>
+      </genOperations>
+      <genOperations ecoreOperation="robot.ecore#//Device/write.9">
+        <genParameters ecoreParameter="robot.ecore#//Device/write.9/text"/>
+      </genOperations>
+      <genOperations ecoreOperation="robot.ecore#//Device/write.10">
+        <genParameters ecoreParameter="robot.ecore#//Device/write.10/imageData"/>
+      </genOperations>
+      <genOperations ecoreOperation="robot.ecore#//Device/write.11">
+        <genParameters ecoreParameter="robot.ecore#//Device/write.11/index"/>
+        <genParameters ecoreParameter="robot.ecore#//Device/write.11/imageData"/>
+      </genOperations>
+      <genOperations ecoreOperation="robot.ecore#//Device/write.12">
+        <genParameters ecoreParameter="robot.ecore#//Device/write.12/imageData"/>
+      </genOperations>
+      <genOperations ecoreOperation="robot.ecore#//Device/writeInt">
+        <genParameters ecoreParameter="robot.ecore#//Device/writeInt/data"/>
+      </genOperations>
+      <genOperations ecoreOperation="robot.ecore#//Device/writeInt.1">
+        <genParameters ecoreParameter="robot.ecore#//Device/writeInt.1/index"/>
+        <genParameters ecoreParameter="robot.ecore#//Device/writeInt.1/data"/>
+      </genOperations>
+      <genOperations ecoreOperation="robot.ecore#//Device/writeInt.2">
+        <genParameters ecoreParameter="robot.ecore#//Device/writeInt.2/data"/>
+      </genOperations>
+      <genOperations ecoreOperation="robot.ecore#//Device/writeFloat">
+        <genParameters ecoreParameter="robot.ecore#//Device/writeFloat/data"/>
+      </genOperations>
+      <genOperations ecoreOperation="robot.ecore#//Device/writeFloat.1">
+        <genParameters ecoreParameter="robot.ecore#//Device/writeFloat.1/index"/>
+        <genParameters ecoreParameter="robot.ecore#//Device/writeFloat.1/data"/>
+      </genOperations>
+      <genOperations ecoreOperation="robot.ecore#//Device/writeFloat.2">
+        <genParameters ecoreParameter="robot.ecore#//Device/writeFloat.2/data"/>
+      </genOperations>
+      <genOperations ecoreOperation="robot.ecore#//Device/writeString">
+        <genParameters ecoreParameter="robot.ecore#//Device/writeString/text"/>
+      </genOperations>
+      <genOperations ecoreOperation="robot.ecore#//Device/writeString.1">
+        <genParameters ecoreParameter="robot.ecore#//Device/writeString.1/index"/>
+        <genParameters ecoreParameter="robot.ecore#//Device/writeString.1/text"/>
+      </genOperations>
+      <genOperations ecoreOperation="robot.ecore#//Device/writeString.2">
+        <genParameters ecoreParameter="robot.ecore#//Device/writeString.2/text"/>
+      </genOperations>
+      <genOperations ecoreOperation="robot.ecore#//Device/writeImageData">
+        <genParameters ecoreParameter="robot.ecore#//Device/writeImageData/imageData"/>
+      </genOperations>
+      <genOperations ecoreOperation="robot.ecore#//Device/writeImageData.1">
+        <genParameters ecoreParameter="robot.ecore#//Device/writeImageData.1/index"/>
+        <genParameters ecoreParameter="robot.ecore#//Device/writeImageData.1/imageData"/>
+      </genOperations>
+      <genOperations ecoreOperation="robot.ecore#//Device/writeImageData.2">
+        <genParameters ecoreParameter="robot.ecore#//Device/writeImageData.2/imageData"/>
+      </genOperations>
+      <genOperations ecoreOperation="robot.ecore#//Device/read"/>
+      <genOperations ecoreOperation="robot.ecore#//Device/read.1">
+        <genParameters ecoreParameter="robot.ecore#//Device/read.1/index"/>
+      </genOperations>
+      <genOperations ecoreOperation="robot.ecore#//Device/read.2">
+        <genParameters ecoreParameter="robot.ecore#//Device/read.2/data"/>
+      </genOperations>
+      <genOperations ecoreOperation="robot.ecore#//Device/read.3">
+        <genParameters ecoreParameter="robot.ecore#//Device/read.3/data"/>
+      </genOperations>
+      <genOperations ecoreOperation="robot.ecore#//Device/read.4">
+        <genParameters ecoreParameter="robot.ecore#//Device/read.4/data"/>
+      </genOperations>
+      <genOperations ecoreOperation="robot.ecore#//Device/read.5">
+        <genParameters ecoreParameter="robot.ecore#//Device/read.5/data"/>
+      </genOperations>
+      <genOperations ecoreOperation="robot.ecore#//Device/readInt"/>
+      <genOperations ecoreOperation="robot.ecore#//Device/readInt.1">
+        <genParameters ecoreParameter="robot.ecore#//Device/readInt.1/index"/>
+      </genOperations>
+      <genOperations ecoreOperation="robot.ecore#//Device/readInt.2">
+        <genParameters ecoreParameter="robot.ecore#//Device/readInt.2/data"/>
+      </genOperations>
+      <genOperations ecoreOperation="robot.ecore#//Device/readFloat"/>
+      <genOperations ecoreOperation="robot.ecore#//Device/readFloat.1">
+        <genParameters ecoreParameter="robot.ecore#//Device/readFloat.1/index"/>
+      </genOperations>
+      <genOperations ecoreOperation="robot.ecore#//Device/readFloat.2">
+        <genParameters ecoreParameter="robot.ecore#//Device/readFloat.2/data"/>
+      </genOperations>
+      <genOperations ecoreOperation="robot.ecore#//Device/readString"/>
+      <genOperations ecoreOperation="robot.ecore#//Device/readString.1">
+        <genParameters ecoreParameter="robot.ecore#//Device/readString.1/index"/>
+      </genOperations>
+      <genOperations ecoreOperation="robot.ecore#//Device/readString.2">
+        <genParameters ecoreParameter="robot.ecore#//Device/readString.2/text"/>
+      </genOperations>
+      <genOperations ecoreOperation="robot.ecore#//Device/readImageData"/>
+      <genOperations ecoreOperation="robot.ecore#//Device/readImageData.1">
+        <genParameters ecoreParameter="robot.ecore#//Device/readImageData.1/index"/>
+      </genOperations>
+      <genOperations ecoreOperation="robot.ecore#//Device/readImageData.2">
+        <genParameters ecoreParameter="robot.ecore#//Device/readImageData.2/imageData"/>
+      </genOperations>
+      <genOperations ecoreOperation="robot.ecore#//Device/e"/>
+      <genOperations ecoreOperation="robot.ecore#//Device/setEvent"/>
+      <genOperations ecoreOperation="robot.ecore#//Device/setFired"/>
+      <genOperations ecoreOperation="robot.ecore#//Device/addDeviceListener">
+        <genParameters ecoreParameter="robot.ecore#//Device/addDeviceListener/listener"/>
+      </genOperations>
+      <genOperations ecoreOperation="robot.ecore#//Device/removeDeviceListener">
+        <genParameters ecoreParameter="robot.ecore#//Device/removeDeviceListener/listener"/>
+      </genOperations>
+      <genOperations ecoreOperation="robot.ecore#//Device/getDeviceListeners"/>
+      <genOperations ecoreOperation="robot.ecore#//Device/getMin"/>
+      <genOperations ecoreOperation="robot.ecore#//Device/getMinFloat"/>
+      <genOperations ecoreOperation="robot.ecore#//Device/getMinString"/>
+      <genOperations ecoreOperation="robot.ecore#//Device/getMax"/>
+      <genOperations ecoreOperation="robot.ecore#//Device/getMaxFloat"/>
+      <genOperations ecoreOperation="robot.ecore#//Device/getMaxString"/>
+      <genOperations ecoreOperation="robot.ecore#//Device/getDefault"/>
+      <genOperations ecoreOperation="robot.ecore#//Device/getDefaultFloat"/>
+      <genOperations ecoreOperation="robot.ecore#//Device/getDefaultString"/>
+      <genOperations ecoreOperation="robot.ecore#//Device/getDefaultImageData"/>
+      <genOperations ecoreOperation="robot.ecore#//Device/getRootRoboid"/>
+      <genOperations ecoreOperation="robot.ecore#//Device/isDataTypeOf">
+        <genParameters ecoreParameter="robot.ecore#//Device/isDataTypeOf/device"/>
+      </genOperations>
+    </genClasses>
+    <genClasses image="false" ecoreClass="robot.ecore#//SensoryDevice">
+      <genOperations ecoreOperation="robot.ecore#//SensoryDevice/addReceptor">
+        <genParameters ecoreParameter="robot.ecore#//SensoryDevice/addReceptor/receptor"/>
+      </genOperations>
+      <genOperations ecoreOperation="robot.ecore#//SensoryDevice/removeReceptor">
+        <genParameters ecoreParameter="robot.ecore#//SensoryDevice/removeReceptor/receptor"/>
+      </genOperations>
+    </genClasses>
+    <genClasses image="false" ecoreClass="robot.ecore#//MotoringDevice"/>
+    <genClasses ecoreClass="robot.ecore#//Sensor">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference robot.ecore#//Sensor/proxyFor"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference robot.ecore#//Sensor/receptors"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute robot.ecore#//Sensor/throttle"/>
+    </genClasses>
+    <genClasses ecoreClass="robot.ecore#//Effector">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference robot.ecore#//Effector/proxyFor"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute robot.ecore#//Effector/sustain"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute robot.ecore#//Effector/throttle"/>
+      <genOperations ecoreOperation="robot.ecore#//Effector/hasNext"/>
+    </genClasses>
+    <genClasses ecoreClass="robot.ecore#//Command">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference robot.ecore#//Command/proxyFor"/>
+      <genFeatures property="Readonly" createChild="false" ecoreFeature="ecore:EAttribute robot.ecore#//Command/id"/>
+    </genClasses>
+    <genClasses ecoreClass="robot.ecore#//Event">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference robot.ecore#//Event/proxyFor"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference robot.ecore#//Event/receptors"/>
+      <genFeatures property="Readonly" createChild="false" ecoreFeature="ecore:EAttribute robot.ecore#//Event/id"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="robot.ecore#//Channel">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference robot.ecore#//Channel/devices"/>
+    </genClasses>
+    <genClasses ecoreClass="robot.ecore#//LinearChannel">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute robot.ecore#//LinearChannel/mode"/>
+    </genClasses>
+    <genClasses ecoreClass="robot.ecore#//CommandChannel"/>
+    <genClasses ecoreClass="robot.ecore#//AudioChannel"/>
+    <genClasses ecoreClass="robot.ecore#//VoiceChannel"/>
+    <genClasses ecoreClass="robot.ecore#//ColorChannel">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute robot.ecore#//ColorChannel/mode"/>
+    </genClasses>
+    <genClasses ecoreClass="robot.ecore#//TextChannel"/>
+    <genClasses ecoreClass="robot.ecore#//MatrixChannel"/>
+    <genClasses ecoreClass="robot.ecore#//FileChannel"/>
+  </genPackages>
+</genmodel:GenModel>

@@ -1,0 +1,702 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_uuJWEI5lEd6_084DaDjrZA" type="Ecore" name="timeline.ecore_diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_0uSRUY8aEd6EhPDIJEEQTA" type="2001" fontName="굴림">
+    <children xmi:type="notation:DecorationNode" xmi:id="_0ubbQI8aEd6EhPDIJEEQTA" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0ubbQY8aEd6EhPDIJEEQTA" type="7001">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0ubbQo8aEd6EhPDIJEEQTA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0ubbQ48aEd6EhPDIJEEQTA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0ubbRI8aEd6EhPDIJEEQTA" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0ubbRY8aEd6EhPDIJEEQTA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0ubbRo8aEd6EhPDIJEEQTA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0ubbR48aEd6EhPDIJEEQTA" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0ubbSI8aEd6EhPDIJEEQTA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0ubbSY8aEd6EhPDIJEEQTA"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="timeline.ecore#//TimelineElement"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0uSRUo8aEd6EhPDIJEEQTA" x="1006"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_0ubbSo8aEd6EhPDIJEEQTA" type="2001" fontName="굴림">
+    <children xmi:type="notation:DecorationNode" xmi:id="_0ubbTI8aEd6EhPDIJEEQTA" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0ubbTY8aEd6EhPDIJEEQTA" type="7001">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0ubbTo8aEd6EhPDIJEEQTA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0ubbT48aEd6EhPDIJEEQTA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0ubbUI8aEd6EhPDIJEEQTA" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0ubbUY8aEd6EhPDIJEEQTA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0ubbUo8aEd6EhPDIJEEQTA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0ubbU48aEd6EhPDIJEEQTA" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0ubbVI8aEd6EhPDIJEEQTA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0ubbVY8aEd6EhPDIJEEQTA"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="timeline.ecore#//MotionClip"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0ubbS48aEd6EhPDIJEEQTA" x="1050" y="130"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_0ubbVo8aEd6EhPDIJEEQTA" type="2001" fontName="굴림">
+    <children xmi:type="notation:DecorationNode" xmi:id="_0ubbWI8aEd6EhPDIJEEQTA" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0ubbWY8aEd6EhPDIJEEQTA" type="7001">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0ubbWo8aEd6EhPDIJEEQTA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0ubbW48aEd6EhPDIJEEQTA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0ubbXI8aEd6EhPDIJEEQTA" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0ubbXY8aEd6EhPDIJEEQTA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0ubbXo8aEd6EhPDIJEEQTA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0ubbX48aEd6EhPDIJEEQTA" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0ubbYI8aEd6EhPDIJEEQTA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0ubbYY8aEd6EhPDIJEEQTA"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="timeline.ecore#//MovableElement"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0ubbV48aEd6EhPDIJEEQTA" x="790" y="15"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_0ubbYo8aEd6EhPDIJEEQTA" type="2001" fontName="굴림">
+    <children xmi:type="notation:DecorationNode" xmi:id="_0ubbZI8aEd6EhPDIJEEQTA" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0ubbZY8aEd6EhPDIJEEQTA" type="7001">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0ubbZo8aEd6EhPDIJEEQTA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0ubbZ48aEd6EhPDIJEEQTA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0ubbaI8aEd6EhPDIJEEQTA" type="7002">
+      <children xmi:type="notation:Node" xmi:id="_WkJEKMA4EeKhopmEvjXQpQ" type="3002">
+        <element xmi:type="ecore:EOperation" href="timeline.ecore#//ControlTrack/getTotalFrames"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_WkJEKcA4EeKhopmEvjXQpQ"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_WkJEKsA4EeKhopmEvjXQpQ" type="3002">
+        <element xmi:type="ecore:EOperation" href="timeline.ecore#//ControlTrack/createChannelTrack"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_WkJEK8A4EeKhopmEvjXQpQ"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_WkJELMA4EeKhopmEvjXQpQ" type="3002">
+        <element xmi:type="ecore:EOperation" href="timeline.ecore#//ControlTrack/createChannelTracks"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_WkJELcA4EeKhopmEvjXQpQ"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_WkSOAMA4EeKhopmEvjXQpQ" type="3002">
+        <element xmi:type="ecore:EOperation" href="timeline.ecore#//ControlTrack/updateReference"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_WkSOAcA4EeKhopmEvjXQpQ"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_WkSOAsA4EeKhopmEvjXQpQ" type="3002">
+        <element xmi:type="ecore:EOperation" href="timeline.ecore#//ControlTrack/deepCopy"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_WkSOA8A4EeKhopmEvjXQpQ"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0ubbaY8aEd6EhPDIJEEQTA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0ubbao8aEd6EhPDIJEEQTA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0ubba48aEd6EhPDIJEEQTA" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0ubbbI8aEd6EhPDIJEEQTA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0ubbbY8aEd6EhPDIJEEQTA"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="timeline.ecore#//ControlTrack"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0ubbY48aEd6EhPDIJEEQTA" x="1050" y="280"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_0ubbbo8aEd6EhPDIJEEQTA" type="2001" fontName="굴림">
+    <children xmi:type="notation:DecorationNode" xmi:id="_0ubbcI8aEd6EhPDIJEEQTA" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0ubbcY8aEd6EhPDIJEEQTA" type="7001">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0ubbco8aEd6EhPDIJEEQTA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0ubbc48aEd6EhPDIJEEQTA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0ubbdI8aEd6EhPDIJEEQTA" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0ubbdY8aEd6EhPDIJEEQTA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0ubbdo8aEd6EhPDIJEEQTA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0ubbd48aEd6EhPDIJEEQTA" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0ubbeI8aEd6EhPDIJEEQTA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0ubbeY8aEd6EhPDIJEEQTA"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="timeline.ecore#//ChannelTrack"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0ubbb48aEd6EhPDIJEEQTA" x="1045" y="430"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_0ubbeo8aEd6EhPDIJEEQTA" type="2001" fontName="굴림">
+    <children xmi:type="notation:DecorationNode" xmi:id="_0ubbfI8aEd6EhPDIJEEQTA" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0ubbfY8aEd6EhPDIJEEQTA" type="7001">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0ubbfo8aEd6EhPDIJEEQTA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0ubbf48aEd6EhPDIJEEQTA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0ubbgI8aEd6EhPDIJEEQTA" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0ubbgY8aEd6EhPDIJEEQTA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0ubbgo8aEd6EhPDIJEEQTA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0ubbg48aEd6EhPDIJEEQTA" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0ubbhI8aEd6EhPDIJEEQTA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0ubbhY8aEd6EhPDIJEEQTA"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="timeline.ecore#//LinearTrack"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0ubbe48aEd6EhPDIJEEQTA" x="985" y="655"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_0ubbho8aEd6EhPDIJEEQTA" type="2001" fontName="굴림">
+    <children xmi:type="notation:DecorationNode" xmi:id="_0ubbiI8aEd6EhPDIJEEQTA" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0ubbiY8aEd6EhPDIJEEQTA" type="7001">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0ubbio8aEd6EhPDIJEEQTA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0ubbi48aEd6EhPDIJEEQTA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0ubbjI8aEd6EhPDIJEEQTA" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0ubbjY8aEd6EhPDIJEEQTA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0ubbjo8aEd6EhPDIJEEQTA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0ubbj48aEd6EhPDIJEEQTA" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0ubbkI8aEd6EhPDIJEEQTA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0ubbkY8aEd6EhPDIJEEQTA"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="timeline.ecore#//CommandTrack"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0ubbh48aEd6EhPDIJEEQTA" x="990" y="735"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_0ubbko8aEd6EhPDIJEEQTA" type="2001" fontName="굴림">
+    <children xmi:type="notation:DecorationNode" xmi:id="_0ubblI8aEd6EhPDIJEEQTA" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0ubblY8aEd6EhPDIJEEQTA" type="7001">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0ubblo8aEd6EhPDIJEEQTA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0ubbl48aEd6EhPDIJEEQTA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0ubbmI8aEd6EhPDIJEEQTA" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0ubbmY8aEd6EhPDIJEEQTA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0ubbmo8aEd6EhPDIJEEQTA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0ubbm48aEd6EhPDIJEEQTA" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0ubbnI8aEd6EhPDIJEEQTA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0ubbnY8aEd6EhPDIJEEQTA"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="timeline.ecore#//AudioTrack"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0ubbk48aEd6EhPDIJEEQTA" x="1050" y="800"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_0ubbno8aEd6EhPDIJEEQTA" type="2001" fontName="굴림">
+    <children xmi:type="notation:DecorationNode" xmi:id="_0ubboI8aEd6EhPDIJEEQTA" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0ubboY8aEd6EhPDIJEEQTA" type="7001">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0ubboo8aEd6EhPDIJEEQTA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0ubbo48aEd6EhPDIJEEQTA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0ubbpI8aEd6EhPDIJEEQTA" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0ubbpY8aEd6EhPDIJEEQTA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0ubbpo8aEd6EhPDIJEEQTA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0ubbp48aEd6EhPDIJEEQTA" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0ubbqI8aEd6EhPDIJEEQTA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0ubbqY8aEd6EhPDIJEEQTA"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="timeline.ecore#//VoiceTrack"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0ubbn48aEd6EhPDIJEEQTA" x="910" y="800"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_0ubbqo8aEd6EhPDIJEEQTA" type="2001" fontName="굴림">
+    <children xmi:type="notation:DecorationNode" xmi:id="_0ubbrI8aEd6EhPDIJEEQTA" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0ubbrY8aEd6EhPDIJEEQTA" type="7001">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0ubbro8aEd6EhPDIJEEQTA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0ubbr48aEd6EhPDIJEEQTA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0ubbsI8aEd6EhPDIJEEQTA" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0ubbsY8aEd6EhPDIJEEQTA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0ubbso8aEd6EhPDIJEEQTA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0ubbs48aEd6EhPDIJEEQTA" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0ubbtI8aEd6EhPDIJEEQTA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0ubbtY8aEd6EhPDIJEEQTA"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="timeline.ecore#//ColorTrack"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0ubbq48aEd6EhPDIJEEQTA" x="1085" y="880"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_0ubbto8aEd6EhPDIJEEQTA" type="2001" fontName="굴림">
+    <children xmi:type="notation:DecorationNode" xmi:id="_0ubbuI8aEd6EhPDIJEEQTA" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0ubbuY8aEd6EhPDIJEEQTA" type="7001">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0ubbuo8aEd6EhPDIJEEQTA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0ubbu48aEd6EhPDIJEEQTA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0ubbvI8aEd6EhPDIJEEQTA" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0ubbvY8aEd6EhPDIJEEQTA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0ubbvo8aEd6EhPDIJEEQTA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0ubbv48aEd6EhPDIJEEQTA" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0ubbwI8aEd6EhPDIJEEQTA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0ubbwY8aEd6EhPDIJEEQTA"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="timeline.ecore#//TextTrack"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0ubbt48aEd6EhPDIJEEQTA" x="1215" y="445"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_0ubbwo8aEd6EhPDIJEEQTA" type="2001" fontName="굴림">
+    <children xmi:type="notation:DecorationNode" xmi:id="_0ubbxI8aEd6EhPDIJEEQTA" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0ubbxY8aEd6EhPDIJEEQTA" type="7001">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0ubbxo8aEd6EhPDIJEEQTA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0ubbx48aEd6EhPDIJEEQTA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0ubbyI8aEd6EhPDIJEEQTA" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0ubbyY8aEd6EhPDIJEEQTA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0ubbyo8aEd6EhPDIJEEQTA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0ubby48aEd6EhPDIJEEQTA" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0ubbzI8aEd6EhPDIJEEQTA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0ubbzY8aEd6EhPDIJEEQTA"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="timeline.ecore#//MatrixTrack"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0ubbw48aEd6EhPDIJEEQTA" x="850" y="655"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_0ubbzo8aEd6EhPDIJEEQTA" type="2001" fontName="굴림">
+    <children xmi:type="notation:DecorationNode" xmi:id="_0ubb0I8aEd6EhPDIJEEQTA" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0ubb0Y8aEd6EhPDIJEEQTA" type="7001">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0ubb0o8aEd6EhPDIJEEQTA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0ubb048aEd6EhPDIJEEQTA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0ubb1I8aEd6EhPDIJEEQTA" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0ubb1Y8aEd6EhPDIJEEQTA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0ubb1o8aEd6EhPDIJEEQTA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0ubb148aEd6EhPDIJEEQTA" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0ubb2I8aEd6EhPDIJEEQTA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0ubb2Y8aEd6EhPDIJEEQTA"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="timeline.ecore#//ControlPoint"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0ubbz48aEd6EhPDIJEEQTA" x="715" y="425"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_0ubb2o8aEd6EhPDIJEEQTA" type="2001" fontName="굴림">
+    <children xmi:type="notation:DecorationNode" xmi:id="_0ubb3I8aEd6EhPDIJEEQTA" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0ubb3Y8aEd6EhPDIJEEQTA" type="7001">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0ubb3o8aEd6EhPDIJEEQTA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0ubb348aEd6EhPDIJEEQTA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0ubb4I8aEd6EhPDIJEEQTA" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0ubb4Y8aEd6EhPDIJEEQTA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0ubb4o8aEd6EhPDIJEEQTA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0ubb448aEd6EhPDIJEEQTA" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0ubb5I8aEd6EhPDIJEEQTA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0ubb5Y8aEd6EhPDIJEEQTA"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="timeline.ecore#//LinearPoint"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0ubb248aEd6EhPDIJEEQTA" x="525" y="330"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_0ubb5o8aEd6EhPDIJEEQTA" type="2001" fontName="굴림">
+    <children xmi:type="notation:DecorationNode" xmi:id="_0ubb6I8aEd6EhPDIJEEQTA" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0ubb6Y8aEd6EhPDIJEEQTA" type="7001">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0ubb6o8aEd6EhPDIJEEQTA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0ubb648aEd6EhPDIJEEQTA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0ubb7I8aEd6EhPDIJEEQTA" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0ubb7Y8aEd6EhPDIJEEQTA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0ubb7o8aEd6EhPDIJEEQTA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0ubb748aEd6EhPDIJEEQTA" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0ubb8I8aEd6EhPDIJEEQTA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0ubb8Y8aEd6EhPDIJEEQTA"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="timeline.ecore#//CommandPoint"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0ubb548aEd6EhPDIJEEQTA" x="520" y="460"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_0ubb8o8aEd6EhPDIJEEQTA" type="2001" fontName="굴림">
+    <children xmi:type="notation:DecorationNode" xmi:id="_0ubb9I8aEd6EhPDIJEEQTA" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0ubb9Y8aEd6EhPDIJEEQTA" type="7001">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0ubb9o8aEd6EhPDIJEEQTA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0ubb948aEd6EhPDIJEEQTA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0ubb-I8aEd6EhPDIJEEQTA" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0ubb-Y8aEd6EhPDIJEEQTA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0ubb-o8aEd6EhPDIJEEQTA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0ubb-48aEd6EhPDIJEEQTA" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0ubb_I8aEd6EhPDIJEEQTA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0ubb_Y8aEd6EhPDIJEEQTA"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="timeline.ecore#//AudioPoint"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0ubb848aEd6EhPDIJEEQTA" x="500" y="560"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_0ubb_o8aEd6EhPDIJEEQTA" type="2001" fontName="굴림">
+    <children xmi:type="notation:DecorationNode" xmi:id="_0ubcAI8aEd6EhPDIJEEQTA" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0ubcAY8aEd6EhPDIJEEQTA" type="7001">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0ubcAo8aEd6EhPDIJEEQTA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0ubcA48aEd6EhPDIJEEQTA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0ubcBI8aEd6EhPDIJEEQTA" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0ubcBY8aEd6EhPDIJEEQTA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0ubcBo8aEd6EhPDIJEEQTA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0ubcB48aEd6EhPDIJEEQTA" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0ubcCI8aEd6EhPDIJEEQTA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0ubcCY8aEd6EhPDIJEEQTA"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="timeline.ecore#//VoicePoint"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0ubb_48aEd6EhPDIJEEQTA" x="375" y="560"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_0ubcCo8aEd6EhPDIJEEQTA" type="2001" fontName="굴림">
+    <children xmi:type="notation:DecorationNode" xmi:id="_0ubcDI8aEd6EhPDIJEEQTA" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0ubcDY8aEd6EhPDIJEEQTA" type="7001">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0ubcDo8aEd6EhPDIJEEQTA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0ubcD48aEd6EhPDIJEEQTA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0ubcEI8aEd6EhPDIJEEQTA" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0ubcEY8aEd6EhPDIJEEQTA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0ubcEo8aEd6EhPDIJEEQTA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0ubcE48aEd6EhPDIJEEQTA" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0ubcFI8aEd6EhPDIJEEQTA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0ubcFY8aEd6EhPDIJEEQTA"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="timeline.ecore#//ColorPoint"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0ubcC48aEd6EhPDIJEEQTA" x="690" y="590"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_0ubcFo8aEd6EhPDIJEEQTA" type="2001" fontName="굴림">
+    <children xmi:type="notation:DecorationNode" xmi:id="_0ubcGI8aEd6EhPDIJEEQTA" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0ubcGY8aEd6EhPDIJEEQTA" type="7001">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0ubcGo8aEd6EhPDIJEEQTA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0ubcG48aEd6EhPDIJEEQTA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0ubcHI8aEd6EhPDIJEEQTA" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0ubcHY8aEd6EhPDIJEEQTA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0ubcHo8aEd6EhPDIJEEQTA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0ubcH48aEd6EhPDIJEEQTA" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0ubcII8aEd6EhPDIJEEQTA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0ubcIY8aEd6EhPDIJEEQTA"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="timeline.ecore#//TextPoint"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0ubcF48aEd6EhPDIJEEQTA" x="775" y="575"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_0ubcIo8aEd6EhPDIJEEQTA" type="2001" fontName="굴림">
+    <children xmi:type="notation:DecorationNode" xmi:id="_0ubcJI8aEd6EhPDIJEEQTA" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0ubcJY8aEd6EhPDIJEEQTA" type="7001">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0ubcJo8aEd6EhPDIJEEQTA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0ubcJ48aEd6EhPDIJEEQTA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0ubcKI8aEd6EhPDIJEEQTA" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0ubcKY8aEd6EhPDIJEEQTA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0ubcKo8aEd6EhPDIJEEQTA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0ubcK48aEd6EhPDIJEEQTA" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0ubcLI8aEd6EhPDIJEEQTA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0ubcLY8aEd6EhPDIJEEQTA"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="timeline.ecore#//MatrixPoint"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0ubcI48aEd6EhPDIJEEQTA" x="370" y="330"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_0ubcLo8aEd6EhPDIJEEQTA" type="2004" fontName="굴림">
+    <children xmi:type="notation:DecorationNode" xmi:id="_0ubcMI8aEd6EhPDIJEEQTA" type="5004"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0ubcMY8aEd6EhPDIJEEQTA" type="7010">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0ubcMo8aEd6EhPDIJEEQTA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0ubcM48aEd6EhPDIJEEQTA"/>
+    </children>
+    <element xmi:type="ecore:EDataType" href="timeline.ecore#//Rectangle"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0ubcL48aEd6EhPDIJEEQTA" x="1275" y="300"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_0ubcNI8aEd6EhPDIJEEQTA" type="2004" fontName="굴림">
+    <children xmi:type="notation:DecorationNode" xmi:id="_0ubcNo8aEd6EhPDIJEEQTA" type="5004"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0ubcN48aEd6EhPDIJEEQTA" type="7010">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0ubcOI8aEd6EhPDIJEEQTA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0ubcOY8aEd6EhPDIJEEQTA"/>
+    </children>
+    <element xmi:type="ecore:EDataType" href="timeline.ecore#//RGB"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0ubcNY8aEd6EhPDIJEEQTA" x="1275" y="250"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_0ubcOo8aEd6EhPDIJEEQTA" type="2004" fontName="굴림">
+    <children xmi:type="notation:DecorationNode" xmi:id="_0ubcPI8aEd6EhPDIJEEQTA" type="5004"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0ubcPY8aEd6EhPDIJEEQTA" type="7010">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0ubcPo8aEd6EhPDIJEEQTA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0ubcP48aEd6EhPDIJEEQTA"/>
+    </children>
+    <element xmi:type="ecore:EDataType" href="timeline.ecore#//AudioFormat"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0ubcO48aEd6EhPDIJEEQTA" x="1275" y="200"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_0ubcQI8aEd6EhPDIJEEQTA" type="2004" fontName="굴림">
+    <children xmi:type="notation:DecorationNode" xmi:id="_0ubcQo8aEd6EhPDIJEEQTA" type="5004"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0ubcQ48aEd6EhPDIJEEQTA" type="7010">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0ubcRI8aEd6EhPDIJEEQTA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0ubcRY8aEd6EhPDIJEEQTA"/>
+    </children>
+    <element xmi:type="ecore:EDataType" href="timeline.ecore#//AudioInputStream"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0ubcQY8aEd6EhPDIJEEQTA" x="1275" y="150"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_0ubcRo8aEd6EhPDIJEEQTA" type="2004" fontName="굴림">
+    <children xmi:type="notation:DecorationNode" xmi:id="_0ubcSI8aEd6EhPDIJEEQTA" type="5004"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0ubcSY8aEd6EhPDIJEEQTA" type="7010">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0ubcSo8aEd6EhPDIJEEQTA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0ubcS48aEd6EhPDIJEEQTA"/>
+    </children>
+    <element xmi:type="ecore:EDataType" href="timeline.ecore#//UnsupportedAudioFileException"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0ubcR48aEd6EhPDIJEEQTA" x="1275" y="50"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_0ubcTI8aEd6EhPDIJEEQTA" type="2004" fontName="굴림">
+    <children xmi:type="notation:DecorationNode" xmi:id="_0ubcTo8aEd6EhPDIJEEQTA" type="5004"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0ubcT48aEd6EhPDIJEEQTA" type="7010">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0ubcUI8aEd6EhPDIJEEQTA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0ubcUY8aEd6EhPDIJEEQTA"/>
+    </children>
+    <element xmi:type="ecore:EDataType" href="timeline.ecore#//IOException"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0ubcTY8aEd6EhPDIJEEQTA" x="1273"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_0ubcUo8aEd6EhPDIJEEQTA" type="2004" fontName="굴림">
+    <children xmi:type="notation:DecorationNode" xmi:id="_0ubcVI8aEd6EhPDIJEEQTA" type="5004"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0ubcVY8aEd6EhPDIJEEQTA" type="7010">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0ubcVo8aEd6EhPDIJEEQTA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0ubcV48aEd6EhPDIJEEQTA"/>
+    </children>
+    <element xmi:type="ecore:EDataType" href="timeline.ecore#//FloatArray"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0ubcU48aEd6EhPDIJEEQTA" x="1275" y="100"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_0ubcWI8aEd6EhPDIJEEQTA" type="2004" fontName="굴림">
+    <children xmi:type="notation:DecorationNode" xmi:id="_0ubcWo8aEd6EhPDIJEEQTA" type="5004"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0ubcW48aEd6EhPDIJEEQTA" type="7010">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0ubcXI8aEd6EhPDIJEEQTA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0ubcXY8aEd6EhPDIJEEQTA"/>
+    </children>
+    <element xmi:type="ecore:EDataType" href="timeline.ecore#//PropertyChangeListener"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0ubcWY8aEd6EhPDIJEEQTA" x="1275" y="350"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_y8DxwKN-Ed6jwfBfmDkEHA" type="2001" fontName="굴림">
+    <children xmi:type="notation:DecorationNode" xmi:id="_y8DxwqN-Ed6jwfBfmDkEHA" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_y8Dxw6N-Ed6jwfBfmDkEHA" type="7001">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_y8DxxKN-Ed6jwfBfmDkEHA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_y8DxxaN-Ed6jwfBfmDkEHA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_y8DxxqN-Ed6jwfBfmDkEHA" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_y8Dxx6N-Ed6jwfBfmDkEHA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_y8DxyKN-Ed6jwfBfmDkEHA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_y8DxyaN-Ed6jwfBfmDkEHA" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_y8DxyqN-Ed6jwfBfmDkEHA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_y8Dxy6N-Ed6jwfBfmDkEHA"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="timeline.ecore#//IClip"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_y8DxwaN-Ed6jwfBfmDkEHA" x="925" y="224"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_vyvWQAZsEd-szv22I0Wr2g" type="2001" fontName="굴림">
+    <children xmi:type="notation:DecorationNode" xmi:id="_vyvWQgZsEd-szv22I0Wr2g" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_vyvWQwZsEd-szv22I0Wr2g" type="7001">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_vyvWRAZsEd-szv22I0Wr2g"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_vyvWRQZsEd-szv22I0Wr2g"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_vyvWRgZsEd-szv22I0Wr2g" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_vyvWRwZsEd-szv22I0Wr2g"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_vyvWSAZsEd-szv22I0Wr2g"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_vyvWSQZsEd-szv22I0Wr2g" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_vyvWSgZsEd-szv22I0Wr2g"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_vyvWSwZsEd-szv22I0Wr2g"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="timeline.ecore#//FileTrack"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vyvWQQZsEd-szv22I0Wr2g" x="1215" y="510"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_DRE-QAZtEd-szv22I0Wr2g" type="2001" fontName="굴림">
+    <children xmi:type="notation:DecorationNode" xmi:id="_DRE-QgZtEd-szv22I0Wr2g" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_DRE-QwZtEd-szv22I0Wr2g" type="7001">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_DRE-RAZtEd-szv22I0Wr2g"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_DRE-RQZtEd-szv22I0Wr2g"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_DRE-RgZtEd-szv22I0Wr2g" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_DRE-RwZtEd-szv22I0Wr2g"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_DRE-SAZtEd-szv22I0Wr2g"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_DRE-SQZtEd-szv22I0Wr2g" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_DRE-SgZtEd-szv22I0Wr2g"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_DRE-SwZtEd-szv22I0Wr2g"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="timeline.ecore#//FilePoint"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DRE-QQZtEd-szv22I0Wr2g" x="855" y="565"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_0t_bkRLeEd-OA61q2bJreg" type="2004" fontName="맑은 고딕">
+    <children xmi:type="notation:DecorationNode" xmi:id="_0t_bkxLeEd-OA61q2bJreg" type="5004"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0t_blBLeEd-OA61q2bJreg" type="7010">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0t_blRLeEd-OA61q2bJreg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0t_blhLeEd-OA61q2bJreg"/>
+    </children>
+    <element xmi:type="ecore:EDataType" href="timeline.ecore#//URI"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0t_bkhLeEd-OA61q2bJreg" x="1325" y="410"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_uuJWEY5lEd6_084DaDjrZA"/>
+  <element xmi:type="ecore:EPackage" href="timeline.ecore#/"/>
+  <edges xmi:type="notation:Connector" xmi:id="_0vnuEI8aEd6EhPDIJEEQTA" type="4003" source="_0ubbSo8aEd6EhPDIJEEQTA" target="_0ubbYo8aEd6EhPDIJEEQTA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_0vnuE48aEd6EhPDIJEEQTA" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_0vnuFI8aEd6EhPDIJEEQTA" x="-2" y="-24"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_0vnuFY8aEd6EhPDIJEEQTA" type="6004">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_0vnuFo8aEd6EhPDIJEEQTA" x="-6" y="-12"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_0vnuEY8aEd6EhPDIJEEQTA" fontName="굴림"/>
+    <element xmi:type="ecore:EReference" href="timeline.ecore#//MotionClip/controls"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_0vnuEo8aEd6EhPDIJEEQTA" points="[0, 0, 74, 67]$[-74, -67, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0ymwpI8aEd6EhPDIJEEQTA" id="(0.4485294117647059,0.9081632653061225)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0ymwpY8aEd6EhPDIJEEQTA" id="(0.5,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_0vnuF48aEd6EhPDIJEEQTA" type="4004" source="_0ubbSo8aEd6EhPDIJEEQTA" target="_0uSRUY8aEd6EhPDIJEEQTA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_0vnuGI8aEd6EhPDIJEEQTA" fontName="굴림"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_0vnuGY8aEd6EhPDIJEEQTA" points="[0, 0, 0, 1005]$[0, -1005, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0ymwxo8aEd6EhPDIJEEQTA" id="(0.5,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0ymwx48aEd6EhPDIJEEQTA" id="(0.5458937198067633,0.978021978021978)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_0vxfEI8aEd6EhPDIJEEQTA" type="4004" source="_0ubbVo8aEd6EhPDIJEEQTA" target="_0uSRUY8aEd6EhPDIJEEQTA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_0vxfEY8aEd6EhPDIJEEQTA" fontName="굴림"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_0vxfEo8aEd6EhPDIJEEQTA" points="[0, 0, -173, 60]$[173, -60, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0ymwto8aEd6EhPDIJEEQTA" id="(0.9824561403508771,0.07317073170731707)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0ymwt48aEd6EhPDIJEEQTA" id="(0.014492753623188406,0.23469387755102042)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_0vxfE48aEd6EhPDIJEEQTA" type="4003" source="_0ubbYo8aEd6EhPDIJEEQTA" target="_0ubbbo8aEd6EhPDIJEEQTA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_0vxfFo8aEd6EhPDIJEEQTA" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_0vxfF48aEd6EhPDIJEEQTA" x="-6" y="-27"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_0vxfGI8aEd6EhPDIJEEQTA" type="6004">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_0vxfGY8aEd6EhPDIJEEQTA" x="-14" y="-12"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_0vxfFI8aEd6EhPDIJEEQTA" fontName="굴림"/>
+    <element xmi:type="ecore:EReference" href="timeline.ecore#//ControlTrack/channels"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_0vxfFY8aEd6EhPDIJEEQTA" points="[0, 0, 108, 355]$[-61, -61, 47, 294]$[-108, -355, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0ymwwo8aEd6EhPDIJEEQTA" id="(0.4827586206896552,0.9491525423728814)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0ymww48aEd6EhPDIJEEQTA" id="(0.5,0.005847953216374269)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_0vxfGo8aEd6EhPDIJEEQTA" type="4004" source="_0ubbYo8aEd6EhPDIJEEQTA" target="_0ubbVo8aEd6EhPDIJEEQTA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_0vxfG48aEd6EhPDIJEEQTA" fontName="굴림"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_0vxfHI8aEd6EhPDIJEEQTA" points="[-1, 0, 170, 219]$[-171, 0, 0, 219]$[-171, -215, 0, 4]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0ymwyo8aEd6EhPDIJEEQTA" id="(0.008620689655172414,0.15254237288135594)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0ymwy48aEd6EhPDIJEEQTA" id="(0.7894736842105263,0.9390243902439024)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_0vxfHY8aEd6EhPDIJEEQTA" type="4003" source="_0ubbbo8aEd6EhPDIJEEQTA" target="_0ubbzo8aEd6EhPDIJEEQTA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_0vxfII8aEd6EhPDIJEEQTA" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_0vxfIY8aEd6EhPDIJEEQTA" x="35" y="4"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_0vxfIo8aEd6EhPDIJEEQTA" type="6004">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_0vxfI48aEd6EhPDIJEEQTA" x="-12" y="-12"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_0vxfHo8aEd6EhPDIJEEQTA" fontName="굴림"/>
+    <element xmi:type="ecore:EReference" href="timeline.ecore#//ChannelTrack/points"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_0vxfH48aEd6EhPDIJEEQTA" points="[0, 0, 205, 60]$[-205, -60, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0ymwtI8aEd6EhPDIJEEQTA" id="(0.007936507936507936,0.29239766081871343)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0ymwtY8aEd6EhPDIJEEQTA" id="(0.953757225433526,0.27472527472527475)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_0vxfJI8aEd6EhPDIJEEQTA" type="4004" source="_0ubbbo8aEd6EhPDIJEEQTA" target="_0ubbVo8aEd6EhPDIJEEQTA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_0vxfJY8aEd6EhPDIJEEQTA" fontName="굴림"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_0vxfJo8aEd6EhPDIJEEQTA" points="[-3, 0, 200, 338]$[-203, 0, 0, 338]$[-203, -336, 0, 2]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0ymwyI8aEd6EhPDIJEEQTA" id="(0.023809523809523808,0.05847953216374269)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0ymwyY8aEd6EhPDIJEEQTA" id="(0.4824561403508772,0.975609756097561)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_0vxfJ48aEd6EhPDIJEEQTA" type="4004" source="_0ubbeo8aEd6EhPDIJEEQTA" target="_0ubbbo8aEd6EhPDIJEEQTA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_0vxfKI8aEd6EhPDIJEEQTA" fontName="굴림"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_0vxfKY8aEd6EhPDIJEEQTA" points="[0, 0, -32, 84]$[32, -84, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0ymwoI8aEd6EhPDIJEEQTA" id="(0.8255813953488372,0.06060606060606061)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0ymwoY8aEd6EhPDIJEEQTA" id="(0.1111111111111111,0.9649122807017544)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_0vxfKo8aEd6EhPDIJEEQTA" type="4004" source="_0ubbho8aEd6EhPDIJEEQTA" target="_0ubbbo8aEd6EhPDIJEEQTA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_0vxfK48aEd6EhPDIJEEQTA" fontName="굴림"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_0vxfLI8aEd6EhPDIJEEQTA" points="[0, 0, -75, 169]$[72, -164, -3, 5]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0ymwpo8aEd6EhPDIJEEQTA" id="(0.8818181818181818,0.038461538461538464)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0ymwp48aEd6EhPDIJEEQTA" id="(0.3333333333333333,0.9590643274853801)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_0vxfLY8aEd6EhPDIJEEQTA" type="4004" source="_0ubbko8aEd6EhPDIJEEQTA" target="_0ubbbo8aEd6EhPDIJEEQTA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_0vxfLo8aEd6EhPDIJEEQTA" fontName="굴림"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_0vxfL48aEd6EhPDIJEEQTA" points="[0, 0, -49, 239]$[46, -229, -3, 10]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0ymwso8aEd6EhPDIJEEQTA" id="(0.7951807228915663,0.030303030303030304)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0ymws48aEd6EhPDIJEEQTA" id="(0.5714285714285714,0.9590643274853801)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_0vxfMI8aEd6EhPDIJEEQTA" type="4004" source="_0ubbno8aEd6EhPDIJEEQTA" target="_0ubbko8aEd6EhPDIJEEQTA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_0vxfMY8aEd6EhPDIJEEQTA" fontName="굴림"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_0vxfMo8aEd6EhPDIJEEQTA" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0ymwqo8aEd6EhPDIJEEQTA" id="(0.9879518072289156,0.17307692307692307)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0ymwq48aEd6EhPDIJEEQTA" id="(0.04819277108433735,0.12121212121212122)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_0vxfM48aEd6EhPDIJEEQTA" type="4004" source="_0ubbqo8aEd6EhPDIJEEQTA" target="_0ubbbo8aEd6EhPDIJEEQTA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_0vxfNI8aEd6EhPDIJEEQTA" fontName="굴림"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_0vxfNY8aEd6EhPDIJEEQTA" points="[0, 0, 0, 355]$[0, -355, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0ymwvo8aEd6EhPDIJEEQTA" id="(0.7901234567901234,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0ymwv48aEd6EhPDIJEEQTA" id="(0.8412698412698413,0.9590643274853801)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_0v7QEI8aEd6EhPDIJEEQTA" type="4004" source="_0ubbto8aEd6EhPDIJEEQTA" target="_0ubbbo8aEd6EhPDIJEEQTA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_0v7QEY8aEd6EhPDIJEEQTA" fontName="굴림"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_0v7QEo8aEd6EhPDIJEEQTA" points="[0, 0, 0, 74]$[0, -74, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0ymwrI8aEd6EhPDIJEEQTA" id="(0.9473684210526315,0.1346153846153846)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0ymwrY8aEd6EhPDIJEEQTA" id="(0.984251968503937,0.29411764705882354)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_0v7QE48aEd6EhPDIJEEQTA" type="4004" source="_0ubbwo8aEd6EhPDIJEEQTA" target="_0ubbeo8aEd6EhPDIJEEQTA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_0v7QFI8aEd6EhPDIJEEQTA" fontName="굴림"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_0v7QFY8aEd6EhPDIJEEQTA" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0ymwqI8aEd6EhPDIJEEQTA" id="(0.9651162790697675,0.15384615384615385)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0ymwqY8aEd6EhPDIJEEQTA" id="(0.046511627906976744,0.15151515151515152)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_0wEaAI8aEd6EhPDIJEEQTA" type="4004" source="_0ubbzo8aEd6EhPDIJEEQTA" target="_0ubbVo8aEd6EhPDIJEEQTA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_0wEaAY8aEd6EhPDIJEEQTA" fontName="굴림"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_0wEaAo8aEd6EhPDIJEEQTA" points="[0, 0, -285, 60]$[285, -60, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0ymwsI8aEd6EhPDIJEEQTA" id="(0.49710982658959535,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0ymwsY8aEd6EhPDIJEEQTA" id="(0.08771929824561403,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_0wEaA48aEd6EhPDIJEEQTA" type="4004" source="_0ubb2o8aEd6EhPDIJEEQTA" target="_0ubbzo8aEd6EhPDIJEEQTA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_0wEaBI8aEd6EhPDIJEEQTA" fontName="굴림"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_0wEaBY8aEd6EhPDIJEEQTA" points="[0, 0, -437, 60]$[437, -60, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0ymwro8aEd6EhPDIJEEQTA" id="(0.94,0.9210526315789473)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0ymwr48aEd6EhPDIJEEQTA" id="(0.04046242774566474,0.14285714285714285)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_0wEaBo8aEd6EhPDIJEEQTA" type="4004" source="_0ubb5o8aEd6EhPDIJEEQTA" target="_0ubbzo8aEd6EhPDIJEEQTA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_0wEaB48aEd6EhPDIJEEQTA" fontName="굴림"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_0wEaCI8aEd6EhPDIJEEQTA" points="[0, 0, -131, 60]$[131, -60, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0ymwvI8aEd6EhPDIJEEQTA" id="(0.9719626168224299,0.10975609756097561)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0ymwvY8aEd6EhPDIJEEQTA" id="(0.0,0.573170731707317)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_0wEaCY8aEd6EhPDIJEEQTA" type="4004" source="_0ubb8o8aEd6EhPDIJEEQTA" target="_0ubbzo8aEd6EhPDIJEEQTA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_0wEaCo8aEd6EhPDIJEEQTA" fontName="굴림"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_0wEaC48aEd6EhPDIJEEQTA" points="[4, 0, -114, 64]$[118, 0, 0, 64]$[118, -63, 0, 1]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0ymwwI8aEd6EhPDIJEEQTA" id="(0.9682539682539683,0.02145922746781116)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0ymwwY8aEd6EhPDIJEEQTA" id="(0.14450867052023122,0.989010989010989)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_0wEaDI8aEd6EhPDIJEEQTA" type="4004" source="_0ubb_o8aEd6EhPDIJEEQTA" target="_0ubb8o8aEd6EhPDIJEEQTA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_0wEaDY8aEd6EhPDIJEEQTA" fontName="굴림"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_0wEaDo8aEd6EhPDIJEEQTA" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0ymwuo8aEd6EhPDIJEEQTA" id="(0.9625,0.1694915254237288)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0ymwu48aEd6EhPDIJEEQTA" id="(0.09523809523809523,0.017167381974248927)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_0wEaD48aEd6EhPDIJEEQTA" type="4004" source="_0ubcCo8aEd6EhPDIJEEQTA" target="_0ubbzo8aEd6EhPDIJEEQTA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_0wEaEI8aEd6EhPDIJEEQTA" fontName="굴림"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_0wEaEY8aEd6EhPDIJEEQTA" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0ymwuI8aEd6EhPDIJEEQTA" id="(0.7948717948717948,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0ymwuY8aEd6EhPDIJEEQTA" id="(0.21965317919075145,0.9390243902439024)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_0wEaEo8aEd6EhPDIJEEQTA" type="4004" source="_0ubcFo8aEd6EhPDIJEEQTA" target="_0ubbzo8aEd6EhPDIJEEQTA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_0wEaE48aEd6EhPDIJEEQTA" fontName="굴림"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_0wEaFI8aEd6EhPDIJEEQTA" points="[0, 0, 106, 60]$[-106, -60, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0ymwxI8aEd6EhPDIJEEQTA" id="(0.4931506849315068,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0ymwxY8aEd6EhPDIJEEQTA" id="(0.5664739884393064,0.8780487804878049)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_0wEaFY8aEd6EhPDIJEEQTA" type="4004" source="_0ubcIo8aEd6EhPDIJEEQTA" target="_0ubb2o8aEd6EhPDIJEEQTA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_0wEaFo8aEd6EhPDIJEEQTA" fontName="굴림"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_0wEaF48aEd6EhPDIJEEQTA" points="[0, 0, 0, 412]$[0, -412, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0ymwoo8aEd6EhPDIJEEQTA" id="(0.9518072289156626,0.19230769230769232)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0ymwo48aEd6EhPDIJEEQTA" id="(0.15,0.07894736842105263)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_PApcsJS_Ed6GxdX1v9cpRg" type="4002" source="_0ubbVo8aEd6EhPDIJEEQTA" target="_0uSRUY8aEd6EhPDIJEEQTA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_PApcs5S_Ed6GxdX1v9cpRg" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_PApctJS_Ed6GxdX1v9cpRg" x="-2" y="-3"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_PApctZS_Ed6GxdX1v9cpRg" type="6003">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_PApctpS_Ed6GxdX1v9cpRg" x="-41" y="7"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_PApcsZS_Ed6GxdX1v9cpRg" fontName="굴림"/>
+    <element xmi:type="ecore:EReference" href="timeline.ecore#//MovableElement/parent"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_PApcspS_Ed6GxdX1v9cpRg" points="[14, 0, -159, 10]$[117, 16, -56, 26]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_PAzNsJS_Ed6GxdX1v9cpRg" id="(0.9736842105263158,0.711864406779661)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9fx5QJd3Ed6LGJlSbi1F1A" id="(0.00966183574879227,0.6483516483516484)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_7OsWUKN-Ed6jwfBfmDkEHA" type="4004" source="_0ubbSo8aEd6EhPDIJEEQTA" target="_y8DxwKN-Ed6jwfBfmDkEHA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_7OsWUaN-Ed6jwfBfmDkEHA" fontName="굴림"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7OsWUqN-Ed6jwfBfmDkEHA" points="[-6, 2, 92, -45]$[-113, 21, -15, -26]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7OsWU6N-Ed6jwfBfmDkEHA" id="(0.04411764705882353,0.6403508771929824)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_xNpOAAZsEd-szv22I0Wr2g" type="4004" source="_vyvWQAZsEd-szv22I0Wr2g" target="_0ubbbo8aEd6EhPDIJEEQTA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_xNpOAQZsEd-szv22I0Wr2g" fontName="굴림"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_xNpOAgZsEd-szv22I0Wr2g" points="[7, -1, -88, 12]$[85, -19, -10, -6]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xNyX8AZsEd-szv22I0Wr2g" id="(0.014084507042253521,0.17307692307692307)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xNyX8QZsEd-szv22I0Wr2g" id="(0.9763779527559056,0.6256684491978609)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_GmA5wAZtEd-szv22I0Wr2g" type="4004" source="_DRE-QAZtEd-szv22I0Wr2g" target="_0ubbzo8aEd6EhPDIJEEQTA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_GmA5wQZtEd-szv22I0Wr2g" fontName="굴림"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_GmA5wgZtEd-szv22I0Wr2g" points="[-1, -7, 0, 99]$[-15, -102, -14, 4]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_GmA5wwZtEd-szv22I0Wr2g" id="(0.23880597014925373,0.038461538461538464)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_GmA5xAZtEd-szv22I0Wr2g" id="(0.9017341040462428,0.975609756097561)"/>
+  </edges>
+</notation:Diagram>

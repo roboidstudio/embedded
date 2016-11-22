@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.help.toc">
+      <toc
+            file="toc.xml">
+      </toc>
+      <toc
+            file="roboidstudioToc.xml"
+            primary="true">
+      </toc>
+   </extension>
+   <extension
+         point="org.eclipse.ui.startup">
+      <startup
+            class="org.roboid.core.EarlyStartup">
+      </startup>
+   </extension>
+   <extension
+         point="org.eclipse.ui.newWizards">
+      <category
+            id="org.roboid.studio.newWizards"
+            name="Roboid Studio">
+      </category>
+      <wizard
+            canFinishEarly="false"
+            category="org.roboid.studio.newWizards"
+            class="org.roboid.core.NewContentsProjectWizard"
+            hasPages="true"
+            icon="icons/contentsprj.png"
+            id="org.roboid.studio.project.contents.wizard"
+            name="Contents Project"
+            project="true">
+      </wizard>
+   </extension>
+
+</plugin>

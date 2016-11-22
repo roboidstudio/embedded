@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/org.roboid.studio.contentscomposer.model/src"
+    modelPluginID="org.roboid.studio.contentscomposer.model" modelName="Contentscomposer"
+    rootExtendsInterface="" suppressEMFTypes="true" importerID="org.eclipse.emf.importer.ecore"
+    complianceLevel="6.0" copyrightFields="false" usedGenPackages="../../org.roboid.core.component.activity/model/activity.genmodel#//Activity platform:/plugin/org.roboid.robot.model/model/robot.genmodel#//robot ../../org.roboid.studio.timeline.model/model/timeline.genmodel#//timeline">
+  <foreignModel>contentscomposer.ecore</foreignModel>
+  <genPackages prefix="ContentsComposer" basePackage="org.roboid.studio" disposableProviderFactory="true"
+      ecorePackage="contentscomposer.ecore#/">
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="contentscomposer.ecore#//ScriptType">
+      <genEnumLiterals ecoreEnumLiteral="contentscomposer.ecore#//ScriptType/None"/>
+      <genEnumLiterals ecoreEnumLiteral="contentscomposer.ecore#//ScriptType/JavaScript"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="contentscomposer.ecore#//LogicType">
+      <genEnumLiterals ecoreEnumLiteral="contentscomposer.ecore#//LogicType/EQ"/>
+      <genEnumLiterals ecoreEnumLiteral="contentscomposer.ecore#//LogicType/NE"/>
+      <genEnumLiterals ecoreEnumLiteral="contentscomposer.ecore#//LogicType/GT"/>
+      <genEnumLiterals ecoreEnumLiteral="contentscomposer.ecore#//LogicType/GE"/>
+      <genEnumLiterals ecoreEnumLiteral="contentscomposer.ecore#//LogicType/LT"/>
+      <genEnumLiterals ecoreEnumLiteral="contentscomposer.ecore#//LogicType/LE"/>
+    </genEnums>
+    <genDataTypes ecoreDataType="contentscomposer.ecore#//Rectangle"/>
+    <genDataTypes ecoreDataType="contentscomposer.ecore#//PropertyChangeListener"/>
+    <genDataTypes ecoreDataType="contentscomposer.ecore#//ScriptEngine"/>
+    <genDataTypes ecoreDataType="contentscomposer.ecore#//Shell"/>
+    <genDataTypes ecoreDataType="contentscomposer.ecore#//StringArray"/>
+    <genClasses image="false" ecoreClass="contentscomposer.ecore#//ContentsComposerElement">
+      <genOperations ecoreOperation="contentscomposer.ecore#//ContentsComposerElement/addPropertyChangeListener">
+        <genParameters ecoreParameter="contentscomposer.ecore#//ContentsComposerElement/addPropertyChangeListener/listener"/>
+      </genOperations>
+      <genOperations ecoreOperation="contentscomposer.ecore#//ContentsComposerElement/firePropertyChange">
+        <genParameters ecoreParameter="contentscomposer.ecore#//ContentsComposerElement/firePropertyChange/propertyName"/>
+        <genParameters ecoreParameter="contentscomposer.ecore#//ContentsComposerElement/firePropertyChange/oldValue"/>
+        <genParameters ecoreParameter="contentscomposer.ecore#//ContentsComposerElement/firePropertyChange/newValue"/>
+      </genOperations>
+      <genOperations ecoreOperation="contentscomposer.ecore#//ContentsComposerElement/removePropertyChangeListener">
+        <genParameters ecoreParameter="contentscomposer.ecore#//ContentsComposerElement/removePropertyChangeListener/listener"/>
+      </genOperations>
+    </genClasses>
+    <genClasses ecoreClass="contentscomposer.ecore#//MotionContent">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute contentscomposer.ecore#//MotionContent/player"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference contentscomposer.ecore#//MotionContent/robot"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference contentscomposer.ecore#//MotionContent/activity"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute contentscomposer.ecore#//MotionContent/scriptEngine"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute contentscomposer.ecore#//MotionContent/shell"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference contentscomposer.ecore#//MotionContent/blocks"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute contentscomposer.ecore#//MotionContent/grid"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute contentscomposer.ecore#//MotionContent/minimized"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute contentscomposer.ecore#//MotionContent/terminatorScriptCode"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference contentscomposer.ecore#//MotionContent/associations"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute contentscomposer.ecore#//MotionContent/version"/>
+      <genOperations ecoreOperation="contentscomposer.ecore#//MotionContent/addChild">
+        <genParameters ecoreParameter="contentscomposer.ecore#//MotionContent/addChild/node"/>
+      </genOperations>
+      <genOperations ecoreOperation="contentscomposer.ecore#//MotionContent/removeChild">
+        <genParameters ecoreParameter="contentscomposer.ecore#//MotionContent/removeChild/node"/>
+      </genOperations>
+      <genOperations ecoreOperation="contentscomposer.ecore#//MotionContent/validate"/>
+      <genOperations ecoreOperation="contentscomposer.ecore#//MotionContent/getDeviceNames"/>
+      <genOperations ecoreOperation="contentscomposer.ecore#//MotionContent/reset"/>
+      <genOperations ecoreOperation="contentscomposer.ecore#//MotionContent/createScriptEngine"/>
+      <genOperations ecoreOperation="contentscomposer.ecore#//MotionContent/closeShell"/>
+      <genOperations ecoreOperation="contentscomposer.ecore#//MotionContent/setShellMinimized">
+        <genParameters ecoreParameter="contentscomposer.ecore#//MotionContent/setShellMinimized/minimized"/>
+      </genOperations>
+      <genOperations ecoreOperation="contentscomposer.ecore#//MotionContent/indexOf">
+        <genParameters ecoreParameter="contentscomposer.ecore#//MotionContent/indexOf/device"/>
+      </genOperations>
+      <genOperations ecoreOperation="contentscomposer.ecore#//MotionContent/getDevices"/>
+      <genOperations ecoreOperation="contentscomposer.ecore#//MotionContent/getMotionClipNodes"/>
+      <genOperations ecoreOperation="contentscomposer.ecore#//MotionContent/getContentClipNodes"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="contentscomposer.ecore#//MovableElement">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute contentscomposer.ecore#//MovableElement/x"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute contentscomposer.ecore#//MovableElement/y"/>
+    </genClasses>
+    <genClasses ecoreClass="contentscomposer.ecore#//Association">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference contentscomposer.ecore#//Association/source"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference contentscomposer.ecore#//Association/target"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute contentscomposer.ecore#//Association/sourceLabel"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute contentscomposer.ecore#//Association/targetLabel"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="contentscomposer.ecore#//BlockElement">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute contentscomposer.ecore#//BlockElement/error"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute contentscomposer.ecore#//BlockElement/playing"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference contentscomposer.ecore#//BlockElement/incomings"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference contentscomposer.ecore#//BlockElement/outgoings"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute contentscomposer.ecore#//BlockElement/scriptType"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute contentscomposer.ecore#//BlockElement/scriptName"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute contentscomposer.ecore#//BlockElement/scriptCode"/>
+      <genFeatures property="Readonly" notify="false" createChild="false" ecoreFeature="ecore:EReference contentscomposer.ecore#//BlockElement/nextBlock"/>
+      <genOperations ecoreOperation="contentscomposer.ecore#//BlockElement/canHaveScript"/>
+      <genOperations ecoreOperation="contentscomposer.ecore#//BlockElement/updateScript">
+        <genParameters ecoreParameter="contentscomposer.ecore#//BlockElement/updateScript/scriptName"/>
+        <genParameters ecoreParameter="contentscomposer.ecore#//BlockElement/updateScript/scriptCode"/>
+      </genOperations>
+      <genOperations ecoreOperation="contentscomposer.ecore#//BlockElement/getLabel"/>
+      <genOperations ecoreOperation="contentscomposer.ecore#//BlockElement/canDelete"/>
+      <genOperations ecoreOperation="contentscomposer.ecore#//BlockElement/canCopy"/>
+      <genOperations ecoreOperation="contentscomposer.ecore#//BlockElement/canCut"/>
+      <genOperations ecoreOperation="contentscomposer.ecore#//BlockElement/addIncoming">
+        <genParameters ecoreParameter="contentscomposer.ecore#//BlockElement/addIncoming/association"/>
+      </genOperations>
+      <genOperations ecoreOperation="contentscomposer.ecore#//BlockElement/addOutgoing">
+        <genParameters ecoreParameter="contentscomposer.ecore#//BlockElement/addOutgoing/association"/>
+      </genOperations>
+      <genOperations ecoreOperation="contentscomposer.ecore#//BlockElement/removeIncoming">
+        <genParameters ecoreParameter="contentscomposer.ecore#//BlockElement/removeIncoming/association"/>
+      </genOperations>
+      <genOperations ecoreOperation="contentscomposer.ecore#//BlockElement/removeOutgoing">
+        <genParameters ecoreParameter="contentscomposer.ecore#//BlockElement/removeOutgoing/association"/>
+      </genOperations>
+      <genOperations ecoreOperation="contentscomposer.ecore#//BlockElement/getVariable"/>
+      <genOperations ecoreOperation="contentscomposer.ecore#//BlockElement/reset"/>
+      <genOperations ecoreOperation="contentscomposer.ecore#//BlockElement/canReconnect">
+        <genParameters ecoreParameter="contentscomposer.ecore#//BlockElement/canReconnect/newSource"/>
+        <genParameters ecoreParameter="contentscomposer.ecore#//BlockElement/canReconnect/newTarget"/>
+        <genParameters ecoreParameter="contentscomposer.ecore#//BlockElement/canReconnect/oldNode"/>
+      </genOperations>
+      <genOperations ecoreOperation="contentscomposer.ecore#//BlockElement/validate"/>
+      <genOperations ecoreOperation="contentscomposer.ecore#//BlockElement/canConnect">
+        <genParameters ecoreParameter="contentscomposer.ecore#//BlockElement/canConnect/source"/>
+        <genParameters ecoreParameter="contentscomposer.ecore#//BlockElement/canConnect/target"/>
+      </genOperations>
+      <genOperations ecoreOperation="contentscomposer.ecore#//BlockElement/deepCopy"/>
+      <genOperations ecoreOperation="contentscomposer.ecore#//BlockElement/getParent"/>
+    </genClasses>
+    <genClasses ecoreClass="contentscomposer.ecore#//RootBlock">
+      <genOperations ecoreOperation="contentscomposer.ecore#//RootBlock/executeScript"/>
+    </genClasses>
+    <genClasses ecoreClass="contentscomposer.ecore#//TerminatorBlock">
+      <genOperations ecoreOperation="contentscomposer.ecore#//TerminatorBlock/copyScriptType"/>
+      <genOperations ecoreOperation="contentscomposer.ecore#//TerminatorBlock/executeScript"/>
+    </genClasses>
+    <genClasses ecoreClass="contentscomposer.ecore#//AdderBlock"/>
+    <genClasses ecoreClass="contentscomposer.ecore#//DiceBlock">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute contentscomposer.ecore#//DiceBlock/value"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute contentscomposer.ecore#//DiceBlock/range"/>
+    </genClasses>
+    <genClasses ecoreClass="contentscomposer.ecore#//LoopBlock">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute contentscomposer.ecore#//LoopBlock/value"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute contentscomposer.ecore#//LoopBlock/count"/>
+      <genFeatures property="Readonly" notify="false" createChild="false" ecoreFeature="ecore:EReference contentscomposer.ecore#//LoopBlock/yesBlock"/>
+      <genFeatures property="Readonly" notify="false" createChild="false" ecoreFeature="ecore:EReference contentscomposer.ecore#//LoopBlock/noBlock"/>
+    </genClasses>
+    <genClasses ecoreClass="contentscomposer.ecore#//ForkBlock"/>
+    <genClasses ecoreClass="contentscomposer.ecore#//MergeBlock"/>
+    <genClasses image="false" ecoreClass="contentscomposer.ecore#//LogicBlock">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute contentscomposer.ecore#//LogicBlock/frame"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute contentscomposer.ecore#//LogicBlock/logic"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute contentscomposer.ecore#//LogicBlock/index"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute contentscomposer.ecore#//LogicBlock/value"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference contentscomposer.ecore#//LogicBlock/device"/>
+      <genOperations ecoreOperation="contentscomposer.ecore#//LogicBlock/checkCondition"/>
+    </genClasses>
+    <genClasses ecoreClass="contentscomposer.ecore#//BranchBlock">
+      <genFeatures property="Readonly" notify="false" createChild="false" ecoreFeature="ecore:EReference contentscomposer.ecore#//BranchBlock/yesBlock"/>
+      <genFeatures property="Readonly" notify="false" createChild="false" ecoreFeature="ecore:EReference contentscomposer.ecore#//BranchBlock/noBlock"/>
+    </genClasses>
+    <genClasses ecoreClass="contentscomposer.ecore#//TriggerBlock"/>
+    <genClasses image="false" ecoreClass="contentscomposer.ecore#//ClipBlock">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute contentscomposer.ecore#//ClipBlock/frame"/>
+      <genOperations ecoreOperation="contentscomposer.ecore#//ClipBlock/resetTriggers"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="contentscomposer.ecore#//ClipBlockWithFrame">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute contentscomposer.ecore#//ClipBlockWithFrame/startFrame"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute contentscomposer.ecore#//ClipBlockWithFrame/stopFrame"/>
+    </genClasses>
+    <genClasses ecoreClass="contentscomposer.ecore#//MotionClipBlock">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute contentscomposer.ecore#//MotionClipBlock/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference contentscomposer.ecore#//MotionClipBlock/motionClip"/>
+      <genOperations ecoreOperation="contentscomposer.ecore#//MotionClipBlock/getTotalFrames"/>
+    </genClasses>
+    <genClasses ecoreClass="contentscomposer.ecore#//MotionClipCloneBlock">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference contentscomposer.ecore#//MotionClipCloneBlock/original"/>
+      <genOperations ecoreOperation="contentscomposer.ecore#//MotionClipCloneBlock/getTotalFrames"/>
+    </genClasses>
+    <genClasses ecoreClass="contentscomposer.ecore#//ContentClipBlock">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute contentscomposer.ecore#//ContentClipBlock/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference contentscomposer.ecore#//ContentClipBlock/content"/>
+    </genClasses>
+    <genClasses ecoreClass="contentscomposer.ecore#//ContentClipCloneBlock">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference contentscomposer.ecore#//ContentClipCloneBlock/original"/>
+    </genClasses>
+    <genClasses ecoreClass="contentscomposer.ecore#//WaitClipBlock">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute contentscomposer.ecore#//WaitClipBlock/timeout"/>
+      <genOperations ecoreOperation="contentscomposer.ecore#//WaitClipBlock/checkTimeout">
+        <genParameters ecoreParameter="contentscomposer.ecore#//WaitClipBlock/checkTimeout/frame"/>
+      </genOperations>
+    </genClasses>
+    <genClasses image="false" ecoreClass="contentscomposer.ecore#//IContent"/>
+  </genPackages>
+</genmodel:GenModel>

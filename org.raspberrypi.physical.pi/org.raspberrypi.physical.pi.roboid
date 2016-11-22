@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.roboid.robot:Robot xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.roboid.robot="http://www.roboidstudio.org/model/robot" name="RaspberryPi" literal="RaspberryPi" provider="www.robotmedia.kr">
+  <roboids name="RaspberryPi" literal="RaspberryPi" id="org.raspberrypi.physical.pi" uid="org.raspberrypi.physical.pi.0" provider="www.robotmedia.kr">
+    <protocol name="DMP" literal="DMP" bufferSize="2"/>
+    <devices xsi:type="org.roboid.robot:Port" name="GPIO4" literal="GPIO4" dataType="UNSIGNED BYTE" max="255" default="0"/>
+    <devices xsi:type="org.roboid.robot:Port" name="GPIO5" literal="GPIO5" dataType="UNSIGNED BYTE" max="255" default="0"/>
+    <devices xsi:type="org.roboid.robot:Port" name="GPIO6" literal="GPIO6" dataType="UNSIGNED BYTE" max="255" default="0"/>
+    <devices xsi:type="org.roboid.robot:Port" name="GPIO12" literal="GPIO12" dataType="UNSIGNED BYTE" max="255" default="0"/>
+    <devices xsi:type="org.roboid.robot:Port" name="GPIO13" literal="GPIO13" dataType="UNSIGNED BYTE" max="255" default="0"/>
+    <devices xsi:type="org.roboid.robot:Port" name="GPIO16" literal="GPIO16" dataType="UNSIGNED BYTE" max="255" default="0"/>
+    <devices xsi:type="org.roboid.robot:Port" name="GPIO17" literal="GPIO17" dataType="UNSIGNED BYTE" max="255" default="0"/>
+    <devices xsi:type="org.roboid.robot:Port" name="GPIO18" literal="GPIO18" dataType="UNSIGNED BYTE" max="255" default="0"/>
+    <devices xsi:type="org.roboid.robot:Port" name="GPIO19" literal="GPIO19" dataType="UNSIGNED BYTE" max="255" default="0"/>
+    <devices xsi:type="org.roboid.robot:Port" name="GPIO20" literal="GPIO20" dataType="UNSIGNED BYTE" max="255" default="0"/>
+    <devices xsi:type="org.roboid.robot:Port" name="GPIO21" literal="GPIO21" dataType="UNSIGNED BYTE" max="255" default="0"/>
+    <devices xsi:type="org.roboid.robot:Port" name="GPIO22" literal="GPIO22" dataType="UNSIGNED BYTE" max="255" default="0"/>
+    <devices xsi:type="org.roboid.robot:Port" name="GPIO23" literal="GPIO23" dataType="UNSIGNED BYTE" max="255" default="0"/>
+    <devices xsi:type="org.roboid.robot:Port" name="GPIO24" literal="GPIO24" dataType="UNSIGNED BYTE" max="255" default="0"/>
+    <devices xsi:type="org.roboid.robot:Port" name="GPIO25" literal="GPIO25" dataType="UNSIGNED BYTE" max="255" default="0"/>
+    <devices xsi:type="org.roboid.robot:Port" name="GPIO26" literal="GPIO26" dataType="UNSIGNED BYTE" max="255" default="0"/>
+    <devices xsi:type="org.roboid.robot:Port" name="GPIO27" literal="GPIO27" dataType="UNSIGNED BYTE" max="255" default="0"/>
+    <devices xsi:type="org.roboid.robot:Sensor" name="AnalogInput1" literal="AnalogInput1" dataType="UNSIGNED SHORT" max="1023" default="0"/>
+    <devices xsi:type="org.roboid.robot:Sensor" name="AnalogInput2" literal="AnalogInput2" dataType="UNSIGNED SHORT" max="1023" default="0"/>
+    <devices xsi:type="org.roboid.robot:Sensor" name="AnalogInput3" literal="AnalogInput3" dataType="UNSIGNED SHORT" max="1023" default="0"/>
+    <devices xsi:type="org.roboid.robot:Sensor" name="AnalogInput4" literal="AnalogInput4" dataType="UNSIGNED SHORT" max="1023" default="0"/>
+    <devices xsi:type="org.roboid.robot:Sensor" name="AnalogInput5" literal="AnalogInput5" dataType="UNSIGNED SHORT" max="1023" default="0"/>
+    <devices xsi:type="org.roboid.robot:Sensor" name="AnalogInput6" literal="AnalogInput6" dataType="UNSIGNED SHORT" max="1023" default="0"/>
+    <devices xsi:type="org.roboid.robot:Sensor" name="AnalogInput7" literal="AnalogInput7" dataType="UNSIGNED SHORT" max="1023" default="0"/>
+    <devices xsi:type="org.roboid.robot:Sensor" name="AnalogInput8" literal="AnalogInput8" dataType="UNSIGNED SHORT" max="1023" default="0"/>
+  </roboids>
+  <controls name="RaspberryPi" literal="RaspberryPi">
+    <channels xsi:type="org.roboid.robot:LinearChannel" name="GPIO4" literal="GPIO4" devices="//@roboids.0/@devices.0"/>
+    <channels xsi:type="org.roboid.robot:LinearChannel" name="GPIO5" literal="GPIO5" devices="//@roboids.0/@devices.1"/>
+    <channels xsi:type="org.roboid.robot:LinearChannel" name="GPIO6" literal="GPIO6" devices="//@roboids.0/@devices.2"/>
+    <channels xsi:type="org.roboid.robot:LinearChannel" name="GPIO12" literal="GPIO12" devices="//@roboids.0/@devices.3"/>
+    <channels xsi:type="org.roboid.robot:LinearChannel" name="GPIO13" literal="GPIO13" devices="//@roboids.0/@devices.4"/>
+    <channels xsi:type="org.roboid.robot:LinearChannel" name="GPIO16" literal="GPIO16" devices="//@roboids.0/@devices.5"/>
+    <channels xsi:type="org.roboid.robot:LinearChannel" name="GPIO17" literal="GPIO17" devices="//@roboids.0/@devices.6"/>
+    <channels xsi:type="org.roboid.robot:LinearChannel" name="GPIO18" literal="GPIO18" devices="//@roboids.0/@devices.7"/>
+    <channels xsi:type="org.roboid.robot:LinearChannel" name="GPIO19" literal="GPIO19" devices="//@roboids.0/@devices.8"/>
+    <channels xsi:type="org.roboid.robot:LinearChannel" name="GPIO20" literal="GPIO20" devices="//@roboids.0/@devices.9"/>
+    <channels xsi:type="org.roboid.robot:LinearChannel" name="GPIO21" literal="GPIO21" devices="//@roboids.0/@devices.10"/>
+    <channels xsi:type="org.roboid.robot:LinearChannel" name="GPIO22" literal="GPIO22" devices="//@roboids.0/@devices.11"/>
+    <channels xsi:type="org.roboid.robot:LinearChannel" name="GPIO23" literal="GPIO23" devices="//@roboids.0/@devices.12"/>
+    <channels xsi:type="org.roboid.robot:LinearChannel" name="GPIO24" literal="GPIO24" devices="//@roboids.0/@devices.13"/>
+    <channels xsi:type="org.roboid.robot:LinearChannel" name="GPIO25" literal="GPIO25" devices="//@roboids.0/@devices.14"/>
+    <channels xsi:type="org.roboid.robot:LinearChannel" name="GPIO26" literal="GPIO26" devices="//@roboids.0/@devices.15"/>
+    <channels xsi:type="org.roboid.robot:LinearChannel" name="GPIO27" literal="GPIO27" devices="//@roboids.0/@devices.16"/>
+  </controls>
+</org.roboid.robot:Robot>

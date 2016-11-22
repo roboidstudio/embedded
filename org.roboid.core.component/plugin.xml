@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension-point id="org.roboid.system" name="System Component" schema="schema/org.roboid.system.exsd"/>
+   <extension-point id="org.roboid.addon" name="Addon Component" schema="schema/org.roboid.addon.exsd"/>
+   <extension-point id="org.roboid.component" name="Roboid Component" schema="schema/org.roboid.component.exsd"/>
+   <extension
+         point="org.eclipse.help.toc">
+      <toc
+            file="toc.xml"
+            primary="true">
+      </toc>
+      <toc
+            file="tocconcepts.xml">
+      </toc>
+      <toc
+            file="tocgettingstarted.xml">
+      </toc>
+      <toc
+            file="tocreference.xml">
+      </toc>
+      <toc
+            file="tocsamples.xml">
+      </toc>
+      <toc
+            file="toctasks.xml">
+      </toc>
+   </extension>
+
+</plugin>

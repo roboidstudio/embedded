@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+ <copyright>
+ </copyright>
+
+ $Id: plugin.xml,v 1.2 2010/02/15 08:42:35 robomation Exp $
+-->
+
+<plugin>
+   <extension
+         point="org.eclipse.help.toc">
+      <toc
+            file="toc.xml"
+            primary="true">
+      </toc>
+      <toc
+            file="tocconcepts.xml">
+      </toc>
+      <toc
+            file="tocgettingstarted.xml">
+      </toc>
+      <toc
+            file="tocreference.xml">
+      </toc>
+      <toc
+            file="tocsamples.xml">
+      </toc>
+      <toc
+            file="toctasks.xml">
+      </toc>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <editor
+            id="org.roboid.studio.robotcomposer.editor"
+            name="Robot Composer"
+            icon="icons/robot16.png"
+            extensions="robot"
+            class="org.roboid.studio.robotcomposer.RobotComposer"
+            contributorClass="org.roboid.studio.robotcomposer.Contributor">
+      </editor>
+   </extension>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <category
+            id="org.roboid.studio.newWizards"
+            name="Roboid Studio">
+      </category>
+      <wizard
+            canFinishEarly="false"
+            category="org.roboid.studio.newWizards"
+            class="org.roboid.studio.robotcomposer.NewRobotModelWizard"
+            hasPages="true"
+            icon="icons/robot16.png"
+            id="org.roboid.studio.robotcomposer.wizard"
+            name="Robot Model">
+         <description>%_UI_RobotModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+   <extension point="org.eclipse.emf.edit.itemProviderAdapterFactories">
+      <factory
+            uri="http://www.roboidstudio.org/model/robot"
+            class="org.roboid.studio.robotcomposer.provider.RobotItemProviderAdapterFactory"
+            supportedTypes=
+              "org.eclipse.emf.edit.provider.IEditingDomainItemProvider
+               org.eclipse.emf.edit.provider.IStructuredItemContentProvider
+               org.eclipse.emf.edit.provider.ITreeItemContentProvider
+               org.eclipse.emf.edit.provider.IItemLabelProvider
+               org.eclipse.emf.edit.provider.IItemPropertySource"/>
+   </extension>
+
+</plugin>

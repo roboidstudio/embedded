@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.roboid.component">
+      <component
+            class="com.intel.physical.edison.Edison"
+            icon="edison16.png"
+            id="com.intel.physical.edison"
+            model="com.intel.physical.edison.roboid"
+            name="Edison"
+            provider="www.robotmedia.kr"
+            version="1.0.0">
+      </component>
+   </extension>
+
+</plugin>

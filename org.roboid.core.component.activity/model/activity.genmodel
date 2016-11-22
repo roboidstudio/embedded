@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/org.roboid.core.component.activity/src"
+    editDirectory="/org.roboid.core.component.activity.edit/src" editorDirectory="/org.roboid.core.component.activity.editor/src"
+    modelPluginID="org.roboid.core.component.activity" modelName="Activity" rootExtendsInterface=""
+    suppressEMFTypes="true" featureMapWrapperInterface="" importerID="org.eclipse.emf.importer.ecore"
+    complianceLevel="6.0" copyrightFields="false" editPluginID="org.roboid.core.component.activity.edit"
+    editorPluginID="org.roboid.core.component.activity.editor">
+  <foreignModel>activity.ecore</foreignModel>
+  <genPackages prefix="Activity" basePackage="org.roboid.core.component" disposableProviderFactory="true"
+      ecorePackage="activity.ecore#/">
+    <genClasses ecoreClass="activity.ecore#//Activity">
+      <genFeatures property="None" children="true" createChild="false" ecoreFeature="ecore:EReference activity.ecore#//Activity/roboids"/>
+      <genFeatures property="None" children="true" createChild="false" ecoreFeature="ecore:EReference activity.ecore#//Activity/systems"/>
+      <genOperations ecoreOperation="activity.ecore#//Activity/addChild">
+        <genParameters ecoreParameter="activity.ecore#//Activity/addChild/child"/>
+      </genOperations>
+      <genOperations ecoreOperation="activity.ecore#//Activity/addChild.1">
+        <genParameters ecoreParameter="activity.ecore#//Activity/addChild.1/child"/>
+      </genOperations>
+      <genOperations ecoreOperation="activity.ecore#//Activity/removeChild">
+        <genParameters ecoreParameter="activity.ecore#//Activity/removeChild/child"/>
+      </genOperations>
+      <genOperations ecoreOperation="activity.ecore#//Activity/removeChild.1">
+        <genParameters ecoreParameter="activity.ecore#//Activity/removeChild.1/child"/>
+      </genOperations>
+    </genClasses>
+    <genClasses image="false" ecoreClass="activity.ecore#//AbstractActivity">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute activity.ecore#//AbstractActivity/id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute activity.ecore#//AbstractActivity/enabled"/>
+    </genClasses>
+    <genClasses ecoreClass="activity.ecore#//RoboidActivity">
+      <genFeatures property="None" children="true" createChild="false" ecoreFeature="ecore:EReference activity.ecore#//RoboidActivity/roboids"/>
+      <genFeatures property="None" children="true" createChild="false" ecoreFeature="ecore:EReference activity.ecore#//RoboidActivity/addons"/>
+      <genOperations ecoreOperation="activity.ecore#//RoboidActivity/addChild">
+        <genParameters ecoreParameter="activity.ecore#//RoboidActivity/addChild/child"/>
+      </genOperations>
+      <genOperations ecoreOperation="activity.ecore#//RoboidActivity/addChild.1">
+        <genParameters ecoreParameter="activity.ecore#//RoboidActivity/addChild.1/child"/>
+      </genOperations>
+      <genOperations ecoreOperation="activity.ecore#//RoboidActivity/removeChild">
+        <genParameters ecoreParameter="activity.ecore#//RoboidActivity/removeChild/child"/>
+      </genOperations>
+      <genOperations ecoreOperation="activity.ecore#//RoboidActivity/removeChild.1">
+        <genParameters ecoreParameter="activity.ecore#//RoboidActivity/removeChild.1/child"/>
+      </genOperations>
+    </genClasses>
+    <genClasses ecoreClass="activity.ecore#//AddonActivity"/>
+    <genClasses ecoreClass="activity.ecore#//SystemActivity"/>
+  </genPackages>
+</genmodel:GenModel>

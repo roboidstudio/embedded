@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: UI
+Bundle-SymbolicName: org.roboid.ui; singleton:=true
+Bundle-Version: 1.4.0.v20091011
+Bundle-Activator: org.roboid.ui.Activator
+Bundle-Vendor: www.roboidstudio.org
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.ui;bundle-version="3.5.1";visibility:=reexport,
+ org.eclipse.ui.console;bundle-version="3.4.0";visibility:=reexport
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy
+Export-Package: org.roboid.ui.console,
+ org.roboid.ui.dashboard,
+ org.roboid.ui.dashboard.audio,
+ org.roboid.ui.dashboard.graph,
+ org.roboid.ui.dashboard.vision

@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %pluginName
+Bundle-SymbolicName: org.roboid.robot.model.edit;singleton:=true
+Bundle-Version: 1.4.2.v20121116
+Bundle-ClassPath: .
+Bundle-Activator: org.roboid.robot.provider.RobotEditPlugin$Implementation
+Bundle-Vendor: %providerName
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Export-Package: org.roboid.robot.provider
+Require-Bundle: org.eclipse.core.runtime;bundle-version="3.5.0",
+ org.eclipse.emf.edit;visibility:=reexport,
+ org.roboid.robot.model;visibility:=reexport
+Bundle-ActivationPolicy: lazy

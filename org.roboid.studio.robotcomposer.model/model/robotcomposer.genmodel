@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/org.roboid.studio.robotcomposer.model/src"
+    modelPluginID="org.roboid.studio.robotcomposer.model" modelName="Robotcomposer"
+    rootExtendsInterface="" suppressEMFTypes="true" importerID="org.eclipse.emf.importer.ecore"
+    complianceLevel="6.0" copyrightFields="false" usedGenPackages="platform:/plugin/org.roboid.robot.model/model/robot.genmodel#//robot">
+  <foreignModel>robotcomposer.ecore</foreignModel>
+  <genPackages prefix="RobotComposer" basePackage="org.roboid.studio" disposableProviderFactory="true"
+      ecorePackage="robotcomposer.ecore#/">
+    <genDataTypes ecoreDataType="robotcomposer.ecore#//PropertyChangeListener"/>
+    <genDataTypes ecoreDataType="robotcomposer.ecore#//Rectangle"/>
+    <genClasses image="false" ecoreClass="robotcomposer.ecore#//RobotComposerElement">
+      <genOperations ecoreOperation="robotcomposer.ecore#//RobotComposerElement/addPropertyChangeListener">
+        <genParameters ecoreParameter="robotcomposer.ecore#//RobotComposerElement/addPropertyChangeListener/listener"/>
+      </genOperations>
+      <genOperations ecoreOperation="robotcomposer.ecore#//RobotComposerElement/firePropertyChange">
+        <genParameters ecoreParameter="robotcomposer.ecore#//RobotComposerElement/firePropertyChange/propertyName"/>
+        <genParameters ecoreParameter="robotcomposer.ecore#//RobotComposerElement/firePropertyChange/oldValue"/>
+        <genParameters ecoreParameter="robotcomposer.ecore#//RobotComposerElement/firePropertyChange/newValue"/>
+      </genOperations>
+      <genOperations ecoreOperation="robotcomposer.ecore#//RobotComposerElement/removePropertyChangeListener">
+        <genParameters ecoreParameter="robotcomposer.ecore#//RobotComposerElement/removePropertyChangeListener/listener"/>
+      </genOperations>
+    </genClasses>
+    <genClasses ecoreClass="robotcomposer.ecore#//RobotDiagram">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference robotcomposer.ecore#//RobotDiagram/blocks"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute robotcomposer.ecore#//RobotDiagram/grid"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference robotcomposer.ecore#//RobotDiagram/associations"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute robotcomposer.ecore#//RobotDiagram/version"/>
+      <genOperations ecoreOperation="robotcomposer.ecore#//RobotDiagram/addChild">
+        <genParameters ecoreParameter="robotcomposer.ecore#//RobotDiagram/addChild/child"/>
+      </genOperations>
+      <genOperations ecoreOperation="robotcomposer.ecore#//RobotDiagram/removeChild">
+        <genParameters ecoreParameter="robotcomposer.ecore#//RobotDiagram/removeChild/child"/>
+      </genOperations>
+      <genOperations ecoreOperation="robotcomposer.ecore#//RobotDiagram/validate"/>
+      <genOperations ecoreOperation="robotcomposer.ecore#//RobotDiagram/addAssociation">
+        <genParameters ecoreParameter="robotcomposer.ecore#//RobotDiagram/addAssociation/association"/>
+      </genOperations>
+      <genOperations ecoreOperation="robotcomposer.ecore#//RobotDiagram/removeAssociation">
+        <genParameters ecoreParameter="robotcomposer.ecore#//RobotDiagram/removeAssociation/association"/>
+      </genOperations>
+    </genClasses>
+    <genClasses image="false" ecoreClass="robotcomposer.ecore#//MovableElement">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute robotcomposer.ecore#//MovableElement/x"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute robotcomposer.ecore#//MovableElement/y"/>
+    </genClasses>
+    <genClasses ecoreClass="robotcomposer.ecore#//Association">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference robotcomposer.ecore#//Association/source"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference robotcomposer.ecore#//Association/target"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute robotcomposer.ecore#//Association/sourceLabel"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute robotcomposer.ecore#//Association/targetLabel"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="robotcomposer.ecore#//BlockElement">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute robotcomposer.ecore#//BlockElement/error"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference robotcomposer.ecore#//BlockElement/incomings"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference robotcomposer.ecore#//BlockElement/outgoings"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference robotcomposer.ecore#//BlockElement/parent"/>
+      <genOperations ecoreOperation="robotcomposer.ecore#//BlockElement/getLabel"/>
+      <genOperations ecoreOperation="robotcomposer.ecore#//BlockElement/canDelete"/>
+      <genOperations ecoreOperation="robotcomposer.ecore#//BlockElement/canCopy"/>
+      <genOperations ecoreOperation="robotcomposer.ecore#//BlockElement/canCut"/>
+      <genOperations ecoreOperation="robotcomposer.ecore#//BlockElement/addIncoming">
+        <genParameters ecoreParameter="robotcomposer.ecore#//BlockElement/addIncoming/association"/>
+      </genOperations>
+      <genOperations ecoreOperation="robotcomposer.ecore#//BlockElement/addOutgoing">
+        <genParameters ecoreParameter="robotcomposer.ecore#//BlockElement/addOutgoing/association"/>
+      </genOperations>
+      <genOperations ecoreOperation="robotcomposer.ecore#//BlockElement/removeIncoming">
+        <genParameters ecoreParameter="robotcomposer.ecore#//BlockElement/removeIncoming/association"/>
+      </genOperations>
+      <genOperations ecoreOperation="robotcomposer.ecore#//BlockElement/removeOutgoing">
+        <genParameters ecoreParameter="robotcomposer.ecore#//BlockElement/removeOutgoing/association"/>
+      </genOperations>
+      <genOperations ecoreOperation="robotcomposer.ecore#//BlockElement/canReconnect">
+        <genParameters ecoreParameter="robotcomposer.ecore#//BlockElement/canReconnect/newSource"/>
+        <genParameters ecoreParameter="robotcomposer.ecore#//BlockElement/canReconnect/newTarget"/>
+        <genParameters ecoreParameter="robotcomposer.ecore#//BlockElement/canReconnect/oldBlock"/>
+      </genOperations>
+      <genOperations ecoreOperation="robotcomposer.ecore#//BlockElement/validate"/>
+      <genOperations ecoreOperation="robotcomposer.ecore#//BlockElement/canConnect">
+        <genParameters ecoreParameter="robotcomposer.ecore#//BlockElement/canConnect/source"/>
+        <genParameters ecoreParameter="robotcomposer.ecore#//BlockElement/canConnect/target"/>
+      </genOperations>
+    </genClasses>
+    <genClasses ecoreClass="robotcomposer.ecore#//RoboidBlock">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference robotcomposer.ecore#//RoboidBlock/roboid"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Resources
+Bundle-SymbolicName: org.roboid.core.resources;singleton:=true
+Bundle-Version: 1.4.2.v20121116
+Bundle-Activator: org.roboid.core.resources.Activator
+Bundle-Vendor: www.roboidstudio.org
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.ui;bundle-version="3.5.1",
+ org.eclipse.emf.ecore.xmi;bundle-version="2.5.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy
+Export-Package: com.swtdesigner,
+ org.roboid.core.resources

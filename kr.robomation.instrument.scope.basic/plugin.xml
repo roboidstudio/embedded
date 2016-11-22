@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.help.toc">
+      <toc
+            file="toc.xml"
+            primary="true">
+      </toc>
+      <toc
+            file="tocconcepts.xml">
+      </toc>
+      <toc
+            file="tocgettingstarted.xml">
+      </toc>
+      <toc
+            file="tocreference.xml">
+      </toc>
+      <toc
+            file="tocsamples.xml">
+      </toc>
+      <toc
+            file="toctasks.xml">
+      </toc>
+   </extension>
+   <extension
+         point="org.roboid.system">
+      <system
+            class="kr.robomation.instrument.scope.linear.LinearScope"
+            icon="line-chart.png"
+            id="kr.robomation.instrument.scope.linear"
+            name="Basic Oscilloscope"
+            provider="www.robomation.kr"
+            version="1.0.0">
+      </system>
+   </extension>
+   <extension
+         point="org.roboid.system">
+      <system
+            class="kr.robomation.instrument.scope.event.EventScope"
+            icon="column-chart.png"
+            id="kr.robomation.instrument.scope.event"
+            name="Basic Event Scope"
+            provider="www.robomation.kr"
+            version="1.0.0">
+      </system>
+   </extension>
+
+</plugin>

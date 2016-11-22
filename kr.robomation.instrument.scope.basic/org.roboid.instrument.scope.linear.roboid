@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.roboid.robot:Robot xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.roboid.robot="http://www.roboidstudio.org/model/robot" name="Basic Oscilloscope" literal="Basic Oscilloscope" provider="www.roboidstudio.org">
+  <roboids name="Basic Oscilloscope" literal="Basic Oscilloscope" id="org.roboid.instrument.scope.linear" uid="org.roboid.instrument.scope.linear.0" provider="www.roboidstudio.org"/>
+  <controls name="Basic Oscilloscope" literal="Basic Oscilloscope"/>
+</org.roboid.robot:Robot>

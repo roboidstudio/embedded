@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.toc"?>
+
+<toc label="Roboid Studio" topic = "html/toc.html">
+	<topic label="Getting Started" href = "html/gettingstarted.html"/> 
+   	<topic label="Tools">
+      <anchor id="tools"/>
+    </topic> 
+   	<topic label="Roboids">
+      <anchor id="roboids"/>
+	   	<topic label="Physical">
+      		<anchor id="physical"/>
+      	</topic>
+	   	<topic label="Peripheral">
+      		<anchor id="peripheral"/>
+      	</topic>
+	   	<topic label="Audio">
+      		<anchor id="audio"/>
+      	</topic>
+	   	<topic label="Voice">
+      		<anchor id="voice"/>
+      	</topic>
+	   	<topic label="Vision">
+      		<anchor id="vision"/>
+      	</topic>
+	   	<topic label="Service">
+      		<anchor id="service"/>
+      	</topic>
+      	<topic label="Instrument">
+      		<anchor id="instrument"/>
+      	</topic>
+      	<topic label="Utility">
+      		<anchor id="util"/>
+      	</topic>
+	   	<topic label="Etc">
+      		<anchor id="etc"/>
+      	</topic>
+    </topic> 
+   	<topic label="Reference" href = "html/subtopic.html"/>
+</toc>
